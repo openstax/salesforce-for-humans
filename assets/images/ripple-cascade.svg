@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="520" fill="#F7F8FA" rx="8"/>
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">One Confirmation. Nine Downstream Effects.</text>
+
+  <!-- Center: the trigger event -->
+  <rect x="260" y="48" width="280" height="48" rx="24" fill="#0D2C6C"/>
+  <text x="400" y="68" fill="rgba(255,255,255,0.6)" font-size="9" text-anchor="middle">AN INSTRUCTOR CONFIRMS</text>
+  <text x="400" y="84" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">"Yes, I'm still using Biology 2e"</text>
+
+  <!-- Ripple circles (decorative) -->
+  <circle cx="400" cy="72" r="60" fill="none" stroke="#77AF42" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="400" cy="72" r="90" fill="none" stroke="#77AF42" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="400" cy="72" r="120" fill="none" stroke="#77AF42" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Effect grid: 3 columns × 3 rows -->
+  <!-- Row 1 -->
+  <line x1="400" y1="96" x2="140" y2="128" stroke="#77AF42" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="96" x2="400" y2="128" stroke="#F47641" stroke-width="1" opacity="0.4"/>
+  <line x1="400" y1="96" x2="660" y2="128" stroke="#0DC0DC" stroke-width="1" opacity="0.4"/>
+
+  <!-- Effect 1: Opportunity Stage -->
+  <rect x="20" y="128" width="240" height="56" rx="6" fill="#fff" stroke="#77AF42" stroke-width="1.5"/>
+  <rect x="24" y="132" width="28" height="28" rx="14" fill="#77AF42"/>
+  <text x="38" y="150" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">1</text>
+  <text x="60" y="148" fill="#0D2C6C" font-size="10" font-weight="700">Opportunity → Active</text>
+  <text x="60" y="164" fill="#5E6062" font-size="9">Stage confirms current usage</text>
+
+  <!-- Effect 2: Adoption Record -->
+  <rect x="280" y="128" width="240" height="56" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <rect x="284" y="132" width="28" height="28" rx="14" fill="#F47641"/>
+  <text x="298" y="150" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">2</text>
+  <text x="320" y="148" fill="#0D2C6C" font-size="10" font-weight="700">Adoption record created/updated</text>
+  <text x="320" y="164" fill="#5E6062" font-size="9">Students + savings for this school year</text>
+
+  <!-- Effect 3: Contact Status -->
+  <rect x="540" y="128" width="240" height="56" rx="6" fill="#fff" stroke="#0DC0DC" stroke-width="1.5"/>
+  <rect x="544" y="132" width="28" height="28" rx="14" fill="#0DC0DC"/>
+  <text x="558" y="150" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">3</text>
+  <text x="580" y="148" fill="#0D2C6C" font-size="10" font-weight="700">Contact → Current Adopter</text>
+  <text x="580" y="164" fill="#5E6062" font-size="9">Changes marketing segments</text>
+
+  <!-- Row 2 -->
+  <line x1="140" y1="184" x2="140" y2="202" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="400" y1="184" x2="400" y2="202" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="660" y1="184" x2="660" y2="202" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Effect 4: Account Profile -->
+  <rect x="20" y="202" width="240" height="56" rx="6" fill="#fff" stroke="#FDBD3E" stroke-width="1.5"/>
+  <rect x="24" y="206" width="28" height="28" rx="14" fill="#FDBD3E"/>
+  <text x="38" y="224" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">4</text>
+  <text x="60" y="222" fill="#0D2C6C" font-size="10" font-weight="700">Account shows +1 active adoption</text>
+  <text x="60" y="238" fill="#5E6062" font-size="9">Institution engagement profile updates</text>
+
+  <!-- Effect 5: Mission Impact -->
+  <rect x="280" y="202" width="240" height="56" rx="6" fill="#fff" stroke="#0D2C6C" stroke-width="1.5"/>
+  <rect x="284" y="206" width="28" height="28" rx="14" fill="#0D2C6C"/>
+  <text x="298" y="224" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">5</text>
+  <text x="320" y="222" fill="#0D2C6C" font-size="10" font-weight="700">Mission impact totals increment</text>
+  <text x="320" y="238" fill="#5E6062" font-size="9">More students, more savings</text>
+
+  <!-- Effect 6: Pipeline Report -->
+  <rect x="540" y="202" width="240" height="56" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <rect x="544" y="206" width="28" height="28" rx="14" fill="#0C9372"/>
+  <text x="558" y="224" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">6</text>
+  <text x="580" y="222" fill="#0D2C6C" font-size="10" font-weight="700">Pipeline report updates</text>
+  <text x="580" y="238" fill="#5E6062" font-size="9">Leadership sees confirmed adoption</text>
+
+  <!-- Row 3 -->
+  <line x1="140" y1="258" x2="140" y2="276" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="400" y1="258" x2="400" y2="276" stroke="#E5E7EB" stroke-width="1"/>
+  <line x1="660" y1="258" x2="660" y2="276" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Effect 7: Marketing Segment -->
+  <rect x="20" y="276" width="240" height="56" rx="6" fill="#fff" stroke="#77AF42" stroke-width="1.5"/>
+  <rect x="24" y="280" width="28" height="28" rx="14" fill="#77AF42"/>
+  <text x="38" y="298" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">7</text>
+  <text x="60" y="296" fill="#0D2C6C" font-size="10" font-weight="700">Marketing sends "thank you"</text>
+  <text x="60" y="312" fill="#5E6062" font-size="9">Not "have you considered adopting?"</text>
+
+  <!-- Effect 8: Web Experience -->
+  <rect x="280" y="276" width="240" height="56" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <rect x="284" y="280" width="28" height="28" rx="14" fill="#F47641"/>
+  <text x="298" y="298" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">8</text>
+  <text x="320" y="296" fill="#0D2C6C" font-size="10" font-weight="700">openstax.org personalizes</text>
+  <text x="320" y="312" fill="#5E6062" font-size="9">Resources + Assignable prompt</text>
+
+  <!-- Effect 9: Support Context -->
+  <rect x="540" y="276" width="240" height="56" rx="6" fill="#fff" stroke="#0DC0DC" stroke-width="1.5"/>
+  <rect x="544" y="280" width="28" height="28" rx="14" fill="#0DC0DC"/>
+  <text x="558" y="298" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">9</text>
+  <text x="580" y="296" fill="#0D2C6C" font-size="10" font-weight="700">Support sees long-time adopter</text>
+  <text x="580" y="312" fill="#5E6062" font-size="9">Adjusts approach accordingly</text>
+
+  <!-- Bottom message -->
+  <rect x="60" y="360" width="680" height="80" rx="8" fill="#0D2C6C"/>
+  <text x="400" y="384" fill="#FDBD3E" font-size="13" font-weight="900" text-anchor="middle">One confirmation. Nine effects. One record.</text>
+  <text x="400" y="404" fill="rgba(255,255,255,0.7)" font-size="11" text-anchor="middle">Now multiply that by every person who touches a record today.</text>
+  <text x="400" y="422" fill="rgba(255,255,255,0.5)" font-size="10" text-anchor="middle">Each one a small contribution. Together, the foundation everything else runs on.</text>
+
+  <!-- Closing line -->
+  <text x="400" y="468" fill="#0D2C6C" font-size="12" font-weight="900" font-style="italic" text-anchor="middle">A free textbook company, writing a free book about how it manages</text>
+  <text x="400" y="486" fill="#0D2C6C" font-size="12" font-weight="900" font-style="italic" text-anchor="middle">the data behind free textbooks. Some stories write themselves.</text>
+</svg>

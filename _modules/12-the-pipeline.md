@@ -27,6 +27,8 @@ Connected to each Book Opportunity is a chain of **Adoption** records — one fo
 
 These numbers roll up into the mission impact figures that OpenStax reports publicly: millions of students reached, billions in savings. Those headline numbers aren't abstract. They're the sum of individual Adoption records, each one representing a faculty member at a specific institution in a specific school year with a specific student count.
 
+![The pipeline: Book Opportunity stages progress from Unconfirmed through Active (or Lapsed). Each Opportunity has child Adoption records per school year tracking students and savings. Those individual records roll up into the headline mission impact numbers.]({{ '/assets/images/opportunity-adoption-chain.svg' | relative_url }})
+
 When you confirm that an instructor is still using their OpenStax textbook, that confirmation creates or updates an Adoption record. That Adoption record feeds the school year's impact numbers. Those impact numbers go into funder reports, board presentations, and the OpenStax website. The chain from your click to the headline number is direct and traceable.
 
 ### Pipeline Stages and Why They Matter

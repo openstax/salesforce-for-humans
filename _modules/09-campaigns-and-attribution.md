@@ -23,6 +23,8 @@ When OpenStax needs to understand whether a marketing effort led to textbook ado
 
 If you're in a role where you interact with educators, whether through sales conversations, support calls, or event attendance, and someone asks you to "make sure these contacts are on the campaign," this is why. Campaign attribution data is how the marketing team proves that their work leads to outcomes, and how leadership decides where to invest resources next.
 
+![Campaign hierarchy: a parent campaign like "Back to School Spring" contains child campaigns for each effort. Below, the attribution trail shows how Campaign Member status changes (Sent → Opened → Clicked → Adoption) create the evidence connecting marketing to outcomes.]({{ '/assets/images/campaign-hierarchy.svg' | relative_url }})
+
 ### Why Personalization Depends on This Data
 
 The data captured through Campaigns and engagement tracking feeds personalization across the organization. Marketing uses engagement scores and campaign history to segment audiences, sending different messages to someone who attended a webinar versus someone who's never interacted with an email. The openstax.org web experience uses adoption and engagement data to surface relevant content and resources. Support agents see campaign history on Contact records, giving them context about what outreach the person has received.

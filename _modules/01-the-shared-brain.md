@@ -22,6 +22,8 @@ Salesforce is that shared memory for OpenStax. It's where we track:
 - **The Assignable pipeline**, from instructor interest through student payment
 - **Mission impact**, including the students reached and textbook savings generated every school year
 
+![Salesforce sits at the center of every team at OpenStax. Support, Sales, Marketing, Web, and Leadership all read from and write to the same shared system, each pulling the slice of data they need.]({{ '/assets/images/crm-hub.svg' | relative_url }})
+
 None of this works if only one team participates. The value of a CRM scales directly with how many people contribute to it. A record that only marketing updates is useful to marketing. A record that marketing, support, sales, and the data team all touch becomes a complete portrait of a relationship — and that portrait is what powers better support calls, smarter outreach, more personalized web experiences, and more accurate mission reporting.
 
 That's what this book is about. Not the technical details of how Salesforce is configured, but the living system underneath it: how OpenStax organizes its knowledge, how that knowledge flows between teams, and how your individual contributions to the system compound into organizational intelligence.

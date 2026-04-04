@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="380" fill="#F7F8FA" rx="8"/>
+
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">Anatomy of a Report</text>
+
+  <!-- Report frame -->
+  <rect x="30" y="44" width="540" height="310" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Report title bar -->
+  <rect x="30" y="44" width="540" height="34" fill="#0D2C6C" rx="6 6 0 0"/>
+  <rect x="30" y="72" width="540" height="6" fill="#0D2C6C"/>
+  <text x="48" y="66" fill="#fff" font-size="12" font-weight="700">Adoptions by Institution — Current Year</text>
+
+  <!-- Filter bar -->
+  <rect x="36" y="82" width="528" height="30" fill="#F7F8FA" rx="3"/>
+  <text x="48" y="101" fill="#9A9A9B" font-size="9" font-weight="700">FILTERS:</text>
+  <rect x="102" y="88" width="120" height="18" rx="9" fill="#EDF7E1"/>
+  <text x="112" y="101" fill="#5a8a2f" font-size="9">School Year = FY26</text>
+  <rect x="230" y="88" width="100" height="18" rx="9" fill="#EDF7E1"/>
+  <text x="240" y="101" fill="#5a8a2f" font-size="9">Market = Higher Ed</text>
+  <rect x="340" y="88" width="80" height="18" rx="9" fill="#F7F8FA" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="352" y="101" fill="#0C9372" font-size="9">+ Add Filter</text>
+
+  <!-- Column headers -->
+  <rect x="36" y="116" width="528" height="24" fill="#EBF5FE"/>
+  <text x="48" y="132" fill="#0D2C6C" font-size="9" font-weight="700">Institution</text>
+  <text x="210" y="132" fill="#0D2C6C" font-size="9" font-weight="700">Book</text>
+  <text x="330" y="132" fill="#0D2C6C" font-size="9" font-weight="700">Confirmation</text>
+  <text x="440" y="132" fill="#0D2C6C" font-size="9" font-weight="700">Students</text>
+  <text x="510" y="132" fill="#0D2C6C" font-size="9" font-weight="700">Savings</text>
+
+  <!-- Group header: Central Arizona College -->
+  <rect x="36" y="140" width="528" height="20" fill="#F7F8FA"/>
+  <text x="48" y="154" fill="#0D2C6C" font-size="10" font-weight="900">Central Arizona College</text>
+
+  <!-- Data rows -->
+  <text x="210" y="175" fill="#2d2d2d" font-size="9">A&amp;P 2e</text>
+  <text x="330" y="175" fill="#2d2d2d" font-size="9">OS Confirmed</text>
+  <text x="440" y="175" fill="#2d2d2d" font-size="9">180</text>
+  <text x="510" y="175" fill="#2d2d2d" font-size="9">$28,800</text>
+  <line x1="42" y1="182" x2="558" y2="182" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="210" y="197" fill="#2d2d2d" font-size="9">Biology 2e</text>
+  <text x="330" y="197" fill="#2d2d2d" font-size="9">3rd Party</text>
+  <text x="440" y="197" fill="#2d2d2d" font-size="9">95</text>
+  <text x="510" y="197" fill="#2d2d2d" font-size="9">$15,200</text>
+  <line x1="42" y1="204" x2="558" y2="204" stroke="#F0F0F0" stroke-width="1"/>
+
+  <!-- Subtotal row -->
+  <rect x="36" y="206" width="528" height="20" fill="#FFF9E5"/>
+  <text x="340" y="220" fill="#0D2C6C" font-size="9" font-weight="700">Subtotal:</text>
+  <text x="440" y="220" fill="#0D2C6C" font-size="9" font-weight="700">275</text>
+  <text x="510" y="220" fill="#0D2C6C" font-size="9" font-weight="700">$44,000</text>
+
+  <!-- Group 2 -->
+  <rect x="36" y="228" width="528" height="20" fill="#F7F8FA"/>
+  <text x="48" y="242" fill="#0D2C6C" font-size="10" font-weight="900">Houston Community College</text>
+
+  <text x="210" y="262" fill="#2d2d2d" font-size="9">Chemistry 2e</text>
+  <text x="330" y="262" fill="#2d2d2d" font-size="9">OS Confirmed</text>
+  <text x="440" y="262" fill="#2d2d2d" font-size="9">220</text>
+  <text x="510" y="262" fill="#2d2d2d" font-size="9">$35,200</text>
+  <line x1="42" y1="269" x2="558" y2="269" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="210" y="284" fill="#9A9A9B" font-size="9" font-style="italic">+ 3 more rows...</text>
+
+  <!-- Subtotal row -->
+  <rect x="36" y="292" width="528" height="20" fill="#FFF9E5"/>
+  <text x="340" y="306" fill="#0D2C6C" font-size="9" font-weight="700">Subtotal:</text>
+  <text x="440" y="306" fill="#0D2C6C" font-size="9" font-weight="700">680</text>
+  <text x="510" y="306" fill="#0D2C6C" font-size="9" font-weight="700">$108,800</text>
+
+  <!-- Grand total -->
+  <rect x="36" y="318" width="528" height="26" fill="#0D2C6C" rx="0 0 4 4"/>
+  <text x="340" y="336" fill="#fff" font-size="10" font-weight="900">Grand Total:</text>
+  <text x="440" y="336" fill="#fff" font-size="10" font-weight="900">955</text>
+  <text x="510" y="336" fill="#fff" font-size="10" font-weight="900">$152,800</text>
+
+  <!-- Right-side annotation callouts -->
+  <rect x="594" y="78" width="186" height="44" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="610" y="96" fill="#5a8a2f" font-size="10" font-weight="900">Filters</text>
+  <text x="610" y="112" fill="#5E6062" font-size="9">Modify these to slice the data</text>
+  <text x="610" y="122" fill="#5E6062" font-size="9">for your specific question.</text>
+  <line x1="594" y1="100" x2="570" y2="97" stroke="#77AF42" stroke-width="1.5"/>
+
+  <rect x="594" y="134" width="186" height="44" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
+  <text x="610" y="152" fill="#0D2C6C" font-size="10" font-weight="900">Columns</text>
+  <text x="610" y="168" fill="#5E6062" font-size="9">The fields included in</text>
+  <text x="610" y="178" fill="#5E6062" font-size="9">the report output.</text>
+  <line x1="594" y1="156" x2="570" y2="132" stroke="#0D2C6C" stroke-width="1.5"/>
+
+  <rect x="594" y="196" width="186" height="44" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <text x="610" y="214" fill="#F47641" font-size="10" font-weight="900">Groupings</text>
+  <text x="610" y="230" fill="#5E6062" font-size="9">Records organized by a</text>
+  <text x="610" y="240" fill="#5E6062" font-size="9">shared value (institution).</text>
+  <line x1="594" y1="218" x2="570" y2="156" stroke="#F47641" stroke-width="1.5"/>
+
+  <rect x="594" y="256" width="186" height="44" rx="6" fill="#FFF9E5" stroke="#FDBD3E" stroke-width="1.5"/>
+  <text x="610" y="274" fill="#0D2C6C" font-size="10" font-weight="900">Summary Rows</text>
+  <text x="610" y="290" fill="#5E6062" font-size="9">Totals, averages, or counts</text>
+  <text x="610" y="300" fill="#5E6062" font-size="9">for each group.</text>
+  <line x1="594" y1="278" x2="570" y2="216" stroke="#FDBD3E" stroke-width="1.5"/>
+
+  <!-- Bottom tip -->
+  <text x="400" y="372" fill="#9A9A9B" font-size="10" font-style="italic" text-anchor="middle">The most useful skill: modifying existing report filters to answer your specific question.</text>
+</svg>

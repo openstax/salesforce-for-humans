@@ -20,6 +20,8 @@ This is the single most common communication breakdown between Salesforce users 
 
 The second version tells your admin what you're *trying to accomplish*. The solution might be a picklist field. But it might also be a formula field that calculates priority automatically, a filtered list view, a report, or a dashboard component. By sharing the problem instead of prescribing the solution, you give your admin the freedom to build the *right* thing.
 
+![The XY Problem: prescribing a solution ("add a Priority picklist") limits your admin to one option. Sharing the problem ("I need to identify accounts likely to adopt Assignable") opens the door to formula fields, list views, reports, or dashboards — the admin picks the right tool.]({{ '/assets/images/xy-problem.svg' | relative_url }})
+
 ### How to Write a Good Request
 
 A useful request includes:

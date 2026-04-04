@@ -22,6 +22,8 @@ A simple framework:
 - **Email** → External communication, formal correspondence, anything leaving the organization
 - **Chatter** → Internal discussions *about a specific record* that should be findable later
 
+![When to use what: Slack is real-time but ephemeral (buried in channels within days). Email is for external communication but scattered across inboxes. Chatter is permanent, attached to the record, and findable by anyone forever.]({{ '/assets/images/slack-email-chatter.svg' | relative_url }})
+
 The best Chatter habit is simple: when you learn something about an Account, Contact, or Opportunity that a colleague might need later, post it on the record's Chatter feed. It takes thirty seconds and creates a permanent, searchable note that's exactly where someone would look for it.
 
 ### Following Records

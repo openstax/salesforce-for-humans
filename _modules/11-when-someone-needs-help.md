@@ -18,6 +18,8 @@ At OpenStax, support requests arrive through every channel:
 
 Regardless of how someone reaches out, the support team sees the same unified interface. Every channel funnels into the same place: a Case record with the person's identity, their institution, the full interaction history, and (thanks to the relationship model) their adoption history, engagement profile, and any prior support cases.
 
+![Every support channel (email, web form, chat, phone) funnels into a single unified Case record. Below, the three-level classification taxonomy: Product → Feature → Issue turns individual support conversations into organizational intelligence.]({{ '/assets/images/case-channels-taxonomy.svg' | relative_url }})
+
 ### The Classification System
 
 What makes OpenStax's Case data particularly valuable is the three-level classification taxonomy. Every Case gets tagged with:

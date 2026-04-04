@@ -15,6 +15,8 @@ Here's why this matters at OpenStax.
 
 **The relational context problem.** A spreadsheet can tell you that Dr. Smith teaches at State University. Salesforce can tell you that Dr. Smith teaches at State University, adopted Biology 2e three years ago, attended two webinars, submitted a support case about instructor resources last month, received five marketing emails this year (opened three), has a Pardot engagement score indicating active interest, and works at an institution with 42,000 undergraduates and an existing LMS integration with Canvas. That context changes how you approach every interaction with Dr. Smith. A spreadsheet gives you a row. Salesforce gives you a story.
 
+![Side-by-side comparison: a spreadsheet row shows name, institution, and email — and that's it. The Salesforce record for the same person shows adoption history, engagement score, support cases, campaign interactions, institution details, and the last conversation. A spreadsheet gives you a row. Salesforce gives you a story.]({{ '/assets/images/spreadsheet-vs-crm.svg' | relative_url }})
+
 **The access control problem.** OpenStax handles sensitive data: donor information, student records subject to FERPA, institutional partnership details. A spreadsheet shared via Google Drive has no field-level security, no audit trail of who viewed what, and is one accidental permission change away from exposure. Salesforce has role-based access, field-level security, record-type visibility rules, and complete audit logging.
 
 **The "bus factor" problem.** If the person who maintains the spreadsheet leaves, gets busy, or goes on vacation, the data goes stale or becomes inaccessible. In Salesforce, the data belongs to the organization, not to any individual.

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="280" fill="#F7F8FA" rx="8"/>
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">When to Use What</text>
+
+  <!-- Slack -->
+  <rect x="30" y="50" width="230" height="200" fill="#fff" rx="8" stroke="#FDBD3E" stroke-width="2"/>
+  <rect x="30" y="50" width="230" height="36" fill="#FDBD3E" rx="8 8 0 0"/>
+  <rect x="30" y="80" width="230" height="6" fill="#FDBD3E"/>
+  <text x="145" y="73" fill="#fff" font-size="14" font-weight="900" text-anchor="middle">Slack</text>
+
+  <text x="50" y="106" fill="#0D2C6C" font-size="10" font-weight="700">Best for:</text>
+  <text x="50" y="124" fill="#5E6062" font-size="10">Real-time coordination</text>
+  <text x="50" y="140" fill="#5E6062" font-size="10">Quick questions</text>
+  <text x="50" y="156" fill="#5E6062" font-size="10">Watercooler conversations</text>
+
+  <line x1="46" y1="170" x2="244" y2="170" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="50" y="190" fill="#9A9A9B" font-size="9" font-weight="700">CONTEXT LIFESPAN</text>
+  <rect x="50" y="198" width="70" height="16" rx="3" fill="#FFF9E5"/>
+  <text x="85" y="210" fill="#0D2C6C" font-size="9" font-weight="700" text-anchor="middle">Ephemeral</text>
+  <text x="50" y="232" fill="#5E6062" font-size="9">Buried in channels within</text>
+  <text x="50" y="244" fill="#5E6062" font-size="9">days. Hard to find later.</text>
+
+  <!-- Email -->
+  <rect x="285" y="50" width="230" height="200" fill="#fff" rx="8" stroke="#0DC0DC" stroke-width="2"/>
+  <rect x="285" y="50" width="230" height="36" fill="#0DC0DC" rx="8 8 0 0"/>
+  <rect x="285" y="80" width="230" height="6" fill="#0DC0DC"/>
+  <text x="400" y="73" fill="#fff" font-size="14" font-weight="900" text-anchor="middle">Email</text>
+
+  <text x="305" y="106" fill="#0D2C6C" font-size="10" font-weight="700">Best for:</text>
+  <text x="305" y="124" fill="#5E6062" font-size="10">External communication</text>
+  <text x="305" y="140" fill="#5E6062" font-size="10">Formal correspondence</text>
+  <text x="305" y="156" fill="#5E6062" font-size="10">Anything leaving the org</text>
+
+  <line x1="301" y1="170" x2="499" y2="170" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="305" y="190" fill="#9A9A9B" font-size="9" font-weight="700">CONTEXT LIFESPAN</text>
+  <rect x="305" y="198" width="60" height="16" rx="3" fill="#E8F8FB"/>
+  <text x="335" y="210" fill="#0D2C6C" font-size="9" font-weight="700" text-anchor="middle">Scattered</text>
+  <text x="305" y="232" fill="#5E6062" font-size="9">Exists in individual inboxes.</text>
+  <text x="305" y="244" fill="#5E6062" font-size="9">Others can't see it.</text>
+
+  <!-- Chatter -->
+  <rect x="540" y="50" width="230" height="200" fill="#fff" rx="8" stroke="#77AF42" stroke-width="2"/>
+  <rect x="540" y="50" width="230" height="36" fill="#77AF42" rx="8 8 0 0"/>
+  <rect x="540" y="80" width="230" height="6" fill="#77AF42"/>
+  <text x="655" y="73" fill="#fff" font-size="14" font-weight="900" text-anchor="middle">Chatter</text>
+
+  <text x="560" y="106" fill="#0D2C6C" font-size="10" font-weight="700">Best for:</text>
+  <text x="560" y="124" fill="#5E6062" font-size="10">Internal discussions about</text>
+  <text x="560" y="140" fill="#5E6062" font-size="10">a specific record</text>
+  <text x="560" y="156" fill="#5E6062" font-size="10">Context someone needs later</text>
+
+  <line x1="556" y1="170" x2="754" y2="170" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="560" y="190" fill="#9A9A9B" font-size="9" font-weight="700">CONTEXT LIFESPAN</text>
+  <rect x="560" y="198" width="80" height="16" rx="3" fill="#EDF7E1"/>
+  <text x="600" y="210" fill="#5a8a2f" font-size="9" font-weight="700" text-anchor="middle">Permanent</text>
+  <text x="560" y="232" fill="#5E6062" font-size="9">Attached to the record.</text>
+  <text x="560" y="244" fill="#5E6062" font-size="9">Findable by anyone, forever.</text>
+
+  <!-- Bottom message -->
+  <rect x="100" y="262" width="600" height="2" rx="1" fill="#E5E7EB"/>
+  <text x="400" y="278" fill="#9A9A9B" font-size="10" font-style="italic" text-anchor="middle">When you learn something about a record that a colleague might need later, Chatter is where it belongs.</text>
+</svg>

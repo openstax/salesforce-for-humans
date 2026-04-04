@@ -19,6 +19,8 @@ Let's make this concrete with OpenStax examples:
 
 **Misclassified records** mean bad analytics. If a Case is tagged with the wrong Product or Issue, the support trend reports show the wrong patterns, and the product team gets misleading signals about where users are struggling.
 
+![What bad data costs: a duplicate Contact splits adoption history, support context, and engagement data across two records. Neither tells the full story. Support sees half the picture, marketing double-sends or misses entirely, and adoption counts are wrong.]({{ '/assets/images/bad-data-ripple.svg' | relative_url }})
+
 ### What You Can Do
 
 Data quality is a shared responsibility. You don't need special permissions to make a difference:

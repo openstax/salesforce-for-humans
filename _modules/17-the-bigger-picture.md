@@ -23,6 +23,8 @@ However it happened, here's what flows from that single confirmation:
 
 One confirmation. Nine downstream effects. And that's just one record.
 
+![One adoption confirmation triggers nine downstream effects: Opportunity stage updates, Adoption record created, Contact status changes, Account profile updates, mission impact totals increment, pipeline reports reflect it, marketing adjusts messaging, the web personalizes, and support gets context. One click, nine ripples.]({{ '/assets/images/ripple-cascade.svg' | relative_url }})
+
 Now multiply that by every person at OpenStax who touches a record today. Every adoption confirmed, every Case tagged accurately, every email address updated, every activity logged with useful notes, every duplicate merged, every field filled in thoughtfully. Each one is a small contribution. Together, they're the foundation that everything else runs on.
 
 The data team doesn't build reports from magic. They build them from the records you maintain. Leadership doesn't make strategy from gut feeling alone. They make it from the dashboards built on your data. Marketing doesn't personalize emails through telepathy. They personalize them using the fields you keep current.

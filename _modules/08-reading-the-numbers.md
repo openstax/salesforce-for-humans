@@ -20,11 +20,15 @@ A Salesforce report is a structured query of data, presented as a table with opt
 
 The most useful thing you can learn is how to **modify the filters** on an existing report to answer your specific question. Your team lead built a report showing all adoptions for the current year. You want to see just your territory. Click the filter panel, add a filter for your state or territory, and run the report. You're now looking at a customized view of the same data without changing the original report for everyone else.
 
+![Anatomy of a report: filters at the top control which records are included, columns show the fields, groupings organize rows by institution, and summary rows calculate totals for each group. Modify existing filters to answer your specific question.]({{ '/assets/images/report-anatomy.svg' | relative_url }})
+
 ### Dashboards: The Visual Layer
 
 A dashboard is a collection of visual components — bar charts, pie charts, gauges, tables, single-number metrics — each powered by an underlying report. Dashboards are designed for quick consumption: glance at the numbers, spot anything unusual, drill into the details if something catches your eye.
 
 **Drilling down** is key. Almost every dashboard component is clickable. If a bar chart shows that Assignable cases spiked last month, click that bar to see the underlying report with every individual case listed. Dashboards are the surface; reports are the depth.
+
+![A dashboard with metric numbers, bar charts, pie charts, and data tables — each powered by an underlying report. Click any component to drill into the full report. The sidebar shows the three-part formula for requesting a new report.]({{ '/assets/images/dashboard-layout.svg' | relative_url }})
 
 ### How to Ask for a New Report
 

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="320" fill="#F7F8FA" rx="8"/>
+
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">The Art of a Good Note</text>
+
+  <!-- BAD NOTE (left) -->
+  <text x="200" y="58" fill="#C22032" font-size="12" font-weight="900" text-anchor="middle">NOT HELPFUL</text>
+
+  <rect x="30" y="72" width="340" height="100" fill="#fff" rx="6" stroke="#C22032" stroke-width="2"/>
+  <rect x="30" y="72" width="340" height="28" fill="#FFF0F0" rx="6 6 0 0"/>
+  <rect x="30" y="94" width="340" height="6" fill="#FFF0F0"/>
+  <text x="46" y="90" fill="#C22032" font-size="10" font-weight="700">Logged Call · Mar 12</text>
+  <text x="300" y="90" fill="#9A9A9B" font-size="9">0:42</text>
+
+  <text x="46" y="124" fill="#2d2d2d" font-size="12">"Called Dr. Rivera"</text>
+
+  <text x="46" y="156" fill="#9A9A9B" font-size="10" font-style="italic">That's it. That's the whole note.</text>
+
+  <!-- What's missing callout -->
+  <g transform="translate(46, 186)">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#C22032"/>
+    <text x="7" y="11" fill="#fff" font-size="9" font-weight="700" text-anchor="middle">?</text>
+    <text x="22" y="11" fill="#5E6062" font-size="10">What was discussed?</text>
+  </g>
+  <g transform="translate(46, 206)">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#C22032"/>
+    <text x="7" y="11" fill="#fff" font-size="9" font-weight="700" text-anchor="middle">?</text>
+    <text x="22" y="11" fill="#5E6062" font-size="10">What's the follow-up?</text>
+  </g>
+  <g transform="translate(46, 226)">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#C22032"/>
+    <text x="7" y="11" fill="#fff" font-size="9" font-weight="700" text-anchor="middle">?</text>
+    <text x="22" y="11" fill="#5E6062" font-size="10">What does the next person need to know?</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="400" y1="58" x2="400" y2="280" stroke="#E5E7EB" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- GOOD NOTE (right) -->
+  <text x="600" y="58" fill="#77AF42" font-size="12" font-weight="900" text-anchor="middle">ACTUALLY USEFUL</text>
+
+  <rect x="430" y="72" width="340" height="192" fill="#fff" rx="6" stroke="#77AF42" stroke-width="2"/>
+  <rect x="430" y="72" width="340" height="28" fill="#EDF7E1" rx="6 6 0 0"/>
+  <rect x="430" y="94" width="340" height="6" fill="#EDF7E1"/>
+  <text x="446" y="90" fill="#5a8a2f" font-size="10" font-weight="700">Logged Call · Mar 12</text>
+  <text x="700" y="90" fill="#9A9A9B" font-size="9">12:15</text>
+
+  <text x="446" y="120" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Rivera at Central Arizona College</text>
+  <text x="446" y="138" fill="#5E6062" font-size="10">Using A&amp;P 2e for 3rd year, 4 sections this spring.</text>
+  <text x="446" y="154" fill="#5E6062" font-size="10">Interested in Assignable but needs dept chair</text>
+  <text x="446" y="168" fill="#5E6062" font-size="10">approval first. IT is supportive of Canvas</text>
+  <text x="446" y="182" fill="#5E6062" font-size="10">integration.</text>
+
+  <line x1="446" y1="192" x2="754" y2="192" stroke="#F0F0F0" stroke-width="1"/>
+
+  <rect x="446" y="200" width="100" height="18" rx="3" fill="#FFF5EE"/>
+  <text x="454" y="213" fill="#F47641" font-size="9" font-weight="700">FOLLOW UP</text>
+
+  <text x="446" y="236" fill="#5E6062" font-size="10">Mid-April, after curriculum committee meets.</text>
+  <text x="446" y="252" fill="#5E6062" font-size="10">Offer demo with Assignable team if approved.</text>
+
+  <!-- Bottom message -->
+  <rect x="100" y="284" width="600" height="28" rx="6" fill="#EDF7E1"/>
+  <text x="400" y="303" fill="#5a8a2f" font-size="11" font-weight="700" text-anchor="middle">The extra minute you spend writing a good note saves hours of re-discovery later.</text>
+</svg>

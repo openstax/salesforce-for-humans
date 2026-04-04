@@ -32,6 +32,8 @@ The first version tells the next person that a call happened. The second version
 
 Writing good activity notes takes an extra minute. That minute saves hours of re-discovery later.
 
+![Side-by-side comparison: a useless note that just says "Called Dr. Rivera" vs a detailed note with institution context, adoption details, interest level, and a clear follow-up action. The extra minute saves hours.]({{ '/assets/images/good-vs-bad-note.svg' | relative_url }})
+
 ### The Downstream Effect
 
 Here's what happens when activities are logged consistently:
@@ -41,6 +43,8 @@ Here's what happens when activities are logged consistently:
 - **Marketing** can see which contacts have been personally touched recently, avoiding tone-deaf outreach to someone who just had a detailed conversation with your team
 - **Leadership** can see activity volume and patterns across the team, informing capacity planning and resource allocation
 - **The data team** can analyze touchpoint patterns to understand which engagement sequences actually lead to adoptions
+
+![One logged activity ripples to every team: Support sees full history, Sales picks up where you left off, Marketing avoids tone-deaf outreach, Leadership sees patterns. When activities aren't logged, everyone flies blind.]({{ '/assets/images/activity-downstream.svg' | relative_url }})
 
 When activities *aren't* logged, all of that goes blind. The support agent walks into the call cold. The sales rep asks questions that were already answered. Marketing sends a generic email to someone who had a personal conversation yesterday. Leadership makes decisions based on incomplete information.
 

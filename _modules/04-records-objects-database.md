@@ -26,6 +26,8 @@ A **record** is one specific instance of an object. "Houston Community College" 
 
 A **field** is a piece of information on a record. The Account record for Houston Community College has fields for its name, address, phone number, enrollment size, LMS system, whether it's a KIP institution, and dozens more.
 
+![The entire mental model: an Object is the table (Account), a Record is one row (Central Arizona College), and a Field is a column (Name, State, Type, LMS). That's it. Everything else is built on top of this.]({{ '/assets/images/objects-records-fields.svg' | relative_url }})
+
 ### What a Record Page Looks Like
 
 When you open a record, you'll see several distinct sections:
@@ -37,6 +39,8 @@ When you open a record, you'll see several distinct sections:
 **The activity timeline** (usually on the right side or in a tab) shows the chronological history of interactions: logged calls, emails, tasks, and events. This is the "what's happened recently" view.
 
 **Chatter feed** shows internal team conversations attached to this specific record.
+
+![Anatomy of a record page: detail fields at the top show core information, related lists below show connected records on other objects, and activity and Chatter show interaction history and team conversations. Every object's record page follows this same structure.]({{ '/assets/images/record-page-anatomy.svg' | relative_url }})
 
 ### Creating and Editing Records
 

@@ -19,6 +19,8 @@ Dr. Rivera also has **Campaign Member** records showing that she received two ba
 
 Meanwhile, the Account record for Central Arizona College shows that the institution uses Canvas as its LMS, has an undergraduate enrollment in the mid-thousands, and is located in a rural setting. Three other Contacts (other faculty) are also linked to this Account, each with their own adoption histories and engagement profiles.
 
+![The OpenStax relationship web: Central Arizona College (Account) connects to Contacts like Dr. Rivera, who connects to Opportunities and Adoptions tracking her textbook usage. Cases and Campaigns also link to both the Account and Contact. Every team sees a different slice of the same connected data.]({{ '/assets/images/relationship-web.svg' | relative_url }})
+
 That's the power of the relationship model. One pull on the thread and the whole picture emerges: who teaches where, what they've adopted, how engaged they are, what support they've needed, and what marketing they've seen. Every team at OpenStax benefits from a different slice of this picture:
 
 - **Support** opens the Contact record during a call and instantly sees the person's institution, their adoption history, and any prior cases

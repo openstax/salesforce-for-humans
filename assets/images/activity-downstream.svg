@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="300" fill="#F7F8FA" rx="8"/>
+
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">What Happens When You Log an Activity</text>
+
+  <!-- Center: the logged activity -->
+  <rect x="280" y="50" width="240" height="50" fill="#0D2C6C" rx="8"/>
+  <text x="400" y="72" fill="#fff" font-size="11" font-weight="900" text-anchor="middle">You log a call with Dr. Rivera</text>
+  <text x="400" y="88" fill="rgba(255,255,255,0.6)" font-size="9" text-anchor="middle">12 minutes of context, captured forever</text>
+
+  <!-- Downward arrows -->
+  <line x1="290" y1="100" x2="130" y2="145" stroke="#77AF42" stroke-width="2" marker-end="url(#batchArr)"/>
+  <line x1="360" y1="100" x2="310" y2="145" stroke="#F47641" stroke-width="2" marker-end="url(#batchArr)"/>
+  <line x1="440" y1="100" x2="490" y2="145" stroke="#0C9372" stroke-width="2" marker-end="url(#batchArr)"/>
+  <line x1="510" y1="100" x2="670" y2="145" stroke="#FDBD3E" stroke-width="2" marker-end="url(#batchArr)"/>
+
+  <!-- Support benefit -->
+  <rect x="30" y="148" width="200" height="64" rx="6" fill="#fff" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="46" y="168" fill="#77AF42" font-size="11" font-weight="900">Support</text>
+  <text x="46" y="184" fill="#5E6062" font-size="9">Sees full history before picking</text>
+  <text x="46" y="196" fill="#5E6062" font-size="9">up the phone. No cold starts.</text>
+
+  <!-- Sales benefit -->
+  <rect x="240" y="148" width="200" height="64" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <text x="256" y="168" fill="#F47641" font-size="11" font-weight="900">Sales</text>
+  <text x="256" y="184" fill="#5E6062" font-size="9">Picks up exactly where the last</text>
+  <text x="256" y="196" fill="#5E6062" font-size="9">conversation left off.</text>
+
+  <!-- Marketing benefit -->
+  <rect x="450" y="148" width="200" height="64" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="466" y="168" fill="#0C9372" font-size="11" font-weight="900">Marketing</text>
+  <text x="466" y="184" fill="#5E6062" font-size="9">Knows who was recently touched,</text>
+  <text x="466" y="196" fill="#5E6062" font-size="9">avoids tone-deaf outreach.</text>
+
+  <!-- Leadership benefit -->
+  <rect x="580" y="148" width="190" height="64" rx="6" fill="#fff" stroke="#FDBD3E" stroke-width="1.5"/>
+  <text x="596" y="168" fill="#0D2C6C" font-size="11" font-weight="900">Leadership</text>
+  <text x="596" y="184" fill="#5E6062" font-size="9">Sees activity volume and</text>
+  <text x="596" y="196" fill="#5E6062" font-size="9">patterns for planning.</text>
+
+  <!-- vs. NOT LOGGED -->
+  <rect x="100" y="234" width="600" height="48" rx="6" fill="#FFF0F0" stroke="#C22032" stroke-width="1.5"/>
+  <text x="400" y="254" fill="#C22032" font-size="11" font-weight="900" text-anchor="middle">When activities aren't logged:</text>
+  <text x="400" y="272" fill="#5E6062" font-size="10" text-anchor="middle">Support walks in cold. Sales starts from scratch. Marketing sends generic emails. Leadership flies blind.</text>
+
+  <defs>
+    <marker id="batchArr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#5E6062"/>
+    </marker>
+  </defs>
+</svg>

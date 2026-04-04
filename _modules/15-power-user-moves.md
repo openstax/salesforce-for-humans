@@ -7,6 +7,8 @@ description: "Inline editing, pinned views, favorites, keyboard shortcuts, and t
 
 Once you're comfortable with the basics, there's a whole layer of efficiency that separates "I use Salesforce" from "Salesforce works for me." This module is a grab bag of the tricks that make daily life faster.
 
+![Power user cheat sheet: inline editing (double-click fields in list views), pinned views (set your default view per object), favorites (star records and reports for quick access), and keyboard shortcuts (/ for search, Cmd+S to save).]({{ '/assets/images/power-user-tips.svg' | relative_url }})
+
 ### Inline Editing from List Views
 
 You don't have to open every record to edit it. In most list views, you can double-click a field directly in the table to edit it. Need to update the status on ten records? Scroll through the list, double-click each status field, change it, and tab to the next one. No page loads, no waiting.

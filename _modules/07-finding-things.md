@@ -34,6 +34,8 @@ List views are criminally underused. Most people stare at the default "Recently 
 
 **Pro tip:** You can edit records directly from a list view using inline editing. Double-click a field in the list to edit it without opening the full record. This is a game changer for bulk updates.
 
+![A custom list view with descriptive name, active filters narrowing to Texas HE accounts, and inline editing in action. The filter panel lets you slice the data; inline editing lets you update fields without opening each record.]({{ '/assets/images/list-view-builder.svg' | relative_url }})
+
 ### Recently Viewed: The "What Was I Just Looking At?" Safety Net
 
 Salesforce tracks the records you've recently viewed, and surfaces them in the search bar dropdown and on each object's default list view. When you've been clicking through records and lose your place, Recently Viewed gets you back.

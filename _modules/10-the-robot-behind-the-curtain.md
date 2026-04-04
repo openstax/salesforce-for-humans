@@ -28,5 +28,7 @@ Even if you never log into Account Engagement, it touches your work:
 - **Hard bounce data flows both directions.** If an email bounces in Account Engagement, the Contact's record in Salesforce reflects it. If roughly a quarter of your Contacts show a hard bounce, that's Account Engagement telling you the email address is dead. Continuing to send to bounced addresses hurts deliverability for everyone.
 - **Marketing campaign lists are built from Salesforce data.** The Contacts and Leads that Account Engagement sends emails to are selected based on their Salesforce field values: adoption status, institution type, subject interest, engagement recency. The accuracy of those fields directly controls who receives what messages.
 
+![The two-way data flow: Salesforce sends field values (email, opt-out status, adoption, institution type) to Account Engagement, which sends back scores, engagement data, and bounce status. The pi__ fields on your Contact records come from Account Engagement. What you update in Salesforce controls what marketing sends.]({{ '/assets/images/pardot-data-flow.svg' | relative_url }})
+
 Understanding that this engine exists, and that it's constantly reading from and writing to the same Salesforce records you touch, makes you a more effective participant in the data ecosystem. You don't need to operate Account Engagement. You just need to know it's there, it's always watching, and the data flows in both directions.
 

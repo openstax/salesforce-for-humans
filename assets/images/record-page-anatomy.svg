@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#F7F8FA" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">Anatomy of a Record Page</text>
+
+  <!-- Main record page frame -->
+  <rect x="30" y="44" width="540" height="410" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- Record header -->
+  <rect x="30" y="44" width="540" height="50" fill="#0D2C6C" rx="6 6 0 0"/>
+  <rect x="30" y="88" width="540" height="6" fill="#0D2C6C"/>
+  <text x="50" y="64" fill="rgba(255,255,255,0.6)" font-size="9">ACCOUNT</text>
+  <text x="50" y="84" fill="#fff" font-size="15" font-weight="700">Houston Community College</text>
+  <rect x="460" y="64" width="60" height="22" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="490" y="79" fill="rgba(255,255,255,0.7)" font-size="9" text-anchor="middle">Edit</text>
+  <rect x="530" y="64" width="22" height="22" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="541" y="79" fill="rgba(255,255,255,0.7)" font-size="9" text-anchor="middle">▼</text>
+
+  <!-- SECTION 1: Detail Fields -->
+  <rect x="36" y="100" width="528" height="96" fill="#fff" stroke="none"/>
+
+  <text x="50" y="118" fill="#9A9A9B" font-size="8" font-weight="700">ACCOUNT NAME</text>
+  <text x="50" y="132" fill="#2d2d2d" font-size="11">Houston Community College</text>
+
+  <text x="220" y="118" fill="#9A9A9B" font-size="8" font-weight="700">STATE</text>
+  <text x="220" y="132" fill="#2d2d2d" font-size="11">Texas</text>
+
+  <text x="340" y="118" fill="#9A9A9B" font-size="8" font-weight="700">TYPE</text>
+  <text x="340" y="132" fill="#2d2d2d" font-size="11">Higher Education</text>
+
+  <text x="50" y="154" fill="#9A9A9B" font-size="8" font-weight="700">LMS</text>
+  <text x="50" y="168" fill="#2d2d2d" font-size="11">Canvas</text>
+
+  <text x="220" y="154" fill="#9A9A9B" font-size="8" font-weight="700">ENROLLMENT</text>
+  <text x="220" y="168" fill="#2d2d2d" font-size="11">~58,000</text>
+
+  <text x="340" y="154" fill="#9A9A9B" font-size="8" font-weight="700">KIP INSTITUTION</text>
+  <text x="340" y="168" fill="#77AF42" font-size="11" font-weight="700">Yes</text>
+
+  <text x="460" y="118" fill="#9A9A9B" font-size="8" font-weight="700">MARKET</text>
+  <text x="460" y="132" fill="#2d2d2d" font-size="11">Higher Ed</text>
+
+  <line x1="36" y1="196" x2="564" y2="196" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- SECTION 2: Related Lists -->
+  <text x="50" y="216" fill="#0D2C6C" font-size="11" font-weight="900">Related Contacts (3)</text>
+
+  <rect x="44" y="224" width="520" height="24" fill="#F7F8FA" rx="2"/>
+  <text x="56" y="240" fill="#5E6062" font-size="9" font-weight="700">Name</text>
+  <text x="200" y="240" fill="#5E6062" font-size="9" font-weight="700">Subject</text>
+  <text x="320" y="240" fill="#5E6062" font-size="9" font-weight="700">Pardot Score</text>
+  <text x="440" y="240" fill="#5E6062" font-size="9" font-weight="700">Status</text>
+
+  <text x="56" y="262" fill="#0C9372" font-size="10" font-weight="700">Dr. Maria Chen</text>
+  <text x="200" y="262" fill="#2d2d2d" font-size="10">Biology</text>
+  <text x="320" y="262" fill="#2d2d2d" font-size="10">62</text>
+  <text x="440" y="262" fill="#77AF42" font-size="10">Active</text>
+  <line x1="44" y1="270" x2="564" y2="270" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="56" y="286" fill="#0C9372" font-size="10">Tom Park</text>
+  <text x="200" y="286" fill="#2d2d2d" font-size="10">Chemistry</text>
+  <text x="320" y="286" fill="#2d2d2d" font-size="10">38</text>
+  <text x="440" y="286" fill="#FDBD3E" font-size="10">Assumed</text>
+  <line x1="44" y1="294" x2="564" y2="294" stroke="#F0F0F0" stroke-width="1"/>
+
+  <text x="56" y="310" fill="#0C9372" font-size="10">Sarah Liu</text>
+  <text x="200" y="310" fill="#2d2d2d" font-size="10">Math</text>
+  <text x="320" y="310" fill="#2d2d2d" font-size="10">14</text>
+  <text x="440" y="310" fill="#9A9A9B" font-size="10">New</text>
+
+  <line x1="36" y1="326" x2="564" y2="326" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- More related lists (compact) -->
+  <text x="50" y="346" fill="#0D2C6C" font-size="11" font-weight="900">Related Opportunities (4)</text>
+  <text x="56" y="364" fill="#0C9372" font-size="9">Biology 2e · Active</text>
+  <text x="200" y="364" fill="#0C9372" font-size="9">Chemistry 2e · Active</text>
+  <text x="370" y="364" fill="#0C9372" font-size="9">Algebra · Lapsed</text>
+  <text x="50" y="382" fill="#5E6062" font-size="9" font-style="italic">+ 1 more</text>
+
+  <line x1="36" y1="394" x2="564" y2="394" stroke="#E5E7EB" stroke-width="1"/>
+
+  <text x="50" y="414" fill="#0D2C6C" font-size="11" font-weight="900">Cases (2)</text>
+  <text x="50" y="434" fill="#0D2C6C" font-size="11" font-weight="900">Campaigns (5)</text>
+
+  <!-- ANNOTATION CALLOUTS on the right -->
+  <!-- Detail Fields callout -->
+  <rect x="594" y="88" width="186" height="56" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <text x="610" y="108" fill="#F47641" font-size="11" font-weight="900">Detail Fields</text>
+  <text x="610" y="122" fill="#5E6062" font-size="9">Core info about this record.</text>
+  <text x="610" y="134" fill="#5E6062" font-size="9">Click the pencil to edit any field.</text>
+  <line x1="594" y1="116" x2="570" y2="140" stroke="#F47641" stroke-width="1.5"/>
+
+  <!-- Related Lists callout -->
+  <rect x="594" y="210" width="186" height="68" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="610" y="230" fill="#5a8a2f" font-size="11" font-weight="900">Related Lists</text>
+  <text x="610" y="244" fill="#5E6062" font-size="9">Records on other objects that</text>
+  <text x="610" y="256" fill="#5E6062" font-size="9">connect to this one. Click any</text>
+  <text x="610" y="268" fill="#5E6062" font-size="9">to navigate to that record.</text>
+  <line x1="594" y1="248" x2="570" y2="260" stroke="#77AF42" stroke-width="1.5"/>
+
+  <!-- Activity/Chatter callout -->
+  <rect x="594" y="340" width="186" height="56" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
+  <text x="610" y="360" fill="#0D2C6C" font-size="11" font-weight="900">Activity &amp; Chatter</text>
+  <text x="610" y="374" fill="#5E6062" font-size="9">Logged calls, emails, tasks,</text>
+  <text x="610" y="386" fill="#5E6062" font-size="9">and team conversations.</text>
+  <line x1="594" y1="370" x2="570" y2="400" stroke="#0D2C6C" stroke-width="1.5"/>
+
+  <!-- Bottom note -->
+  <text x="400" y="472" fill="#9A9A9B" font-size="10" font-style="italic" text-anchor="middle">Every object's record page follows this same structure. Learn it once, use it everywhere.</text>
+</svg>
