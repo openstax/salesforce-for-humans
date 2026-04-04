@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Lato, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="440" fill="#F7F8FA" rx="8"/>
+  
+  <!-- Title -->
+  <text x="400" y="36" fill="#0D2C6C" font-size="16" font-weight="900" text-anchor="middle">The Pattern That Unlocks Everything</text>
+  <text x="400" y="56" fill="#9A9A9B" font-size="12" text-anchor="middle">Every object in Salesforce follows this navigation model</text>
+  
+  <!-- ===== STEP 1: LIST VIEW ===== -->
+  <g transform="translate(30, 80)">
+    <!-- Card -->
+    <rect x="0" y="0" width="220" height="230" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+    
+    <!-- Card header -->
+    <rect x="0" y="0" width="220" height="36" fill="#0D2C6C" rx="6 6 0 0"/>
+    <rect x="0" y="30" width="220" height="6" fill="#0D2C6C"/>
+    <text x="14" y="23" fill="#fff" font-size="12" font-weight="700">Accounts</text>
+    <text x="130" y="23" fill="rgba(255,255,255,0.6)" font-size="9">My HE Accounts ▼</text>
+    
+    <!-- Table header -->
+    <rect x="8" y="44" width="204" height="22" fill="#F7F8FA"/>
+    <text x="14" y="59" fill="#5E6062" font-size="9" font-weight="700">Name</text>
+    <text x="130" y="59" fill="#5E6062" font-size="9" font-weight="700">State</text>
+    <text x="175" y="59" fill="#5E6062" font-size="9" font-weight="700">Type</text>
+    
+    <!-- Table rows -->
+    <text x="14" y="82" fill="#0C9372" font-size="9" font-weight="700">Central Arizona College</text>
+    <text x="130" y="82" fill="#5E6062" font-size="9">AZ</text>
+    <text x="175" y="82" fill="#5E6062" font-size="9">HE</text>
+    <line x1="8" y1="88" x2="212" y2="88" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <!-- Highlight row -->
+    <rect x="8" y="92" width="204" height="22" fill="#EDF7E1" rx="2"/>
+    <text x="14" y="107" fill="#0C9372" font-size="9" font-weight="700">Houston Comm College</text>
+    <text x="130" y="107" fill="#5E6062" font-size="9">TX</text>
+    <text x="175" y="107" fill="#5E6062" font-size="9">HE</text>
+    
+    <text x="14" y="130" fill="#0C9372" font-size="9">Rice University</text>
+    <text x="130" y="130" fill="#5E6062" font-size="9">TX</text>
+    <text x="175" y="130" fill="#5E6062" font-size="9">HE</text>
+    <line x1="8" y1="136" x2="212" y2="136" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <text x="14" y="153" fill="#0C9372" font-size="9">Lone Star College</text>
+    <text x="130" y="153" fill="#5E6062" font-size="9">TX</text>
+    <text x="175" y="153" fill="#5E6062" font-size="9">HE</text>
+    <line x1="8" y1="159" x2="212" y2="159" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <text x="14" y="176" fill="#0C9372" font-size="9">San Jacinto College</text>
+    <text x="130" y="176" fill="#5E6062" font-size="9">TX</text>
+    <text x="175" y="176" fill="#5E6062" font-size="9">HE</text>
+    
+    <!-- Step label -->
+    <rect x="60" y="198" width="100" height="24" rx="12" fill="#0D2C6C"/>
+    <text x="110" y="214" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">List View</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <g transform="translate(258, 185)">
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#77AF42" stroke-width="2.5" marker-end="url(#arrowG)"/>
+    <text x="25" y="-10" fill="#77AF42" font-size="9" font-weight="700" text-anchor="middle">click</text>
+  </g>
+  
+  <!-- ===== STEP 2: RECORD PAGE ===== -->
+  <g transform="translate(318, 80)">
+    <rect x="0" y="0" width="220" height="230" fill="#fff" rx="6" stroke="#77AF42" stroke-width="2"/>
+    
+    <!-- Record header -->
+    <rect x="0" y="0" width="220" height="50" fill="#0D2C6C" rx="6 6 0 0"/>
+    <rect x="0" y="44" width="220" height="6" fill="#0D2C6C"/>
+    <text x="14" y="18" fill="rgba(255,255,255,0.6)" font-size="9">ACCOUNT</text>
+    <text x="14" y="38" fill="#fff" font-size="14" font-weight="700">Houston Comm College</text>
+    
+    <!-- Detail fields -->
+    <text x="14" y="70" fill="#9A9A9B" font-size="8" font-weight="700">STATE</text>
+    <text x="14" y="83" fill="#2d2d2d" font-size="10">Texas</text>
+    
+    <text x="120" y="70" fill="#9A9A9B" font-size="8" font-weight="700">LMS</text>
+    <text x="120" y="83" fill="#2d2d2d" font-size="10">Canvas</text>
+    
+    <text x="14" y="102" fill="#9A9A9B" font-size="8" font-weight="700">TYPE</text>
+    <text x="14" y="115" fill="#2d2d2d" font-size="10">Higher Education</text>
+    
+    <text x="120" y="102" fill="#9A9A9B" font-size="8" font-weight="700">ENROLLMENT</text>
+    <text x="120" y="115" fill="#2d2d2d" font-size="10">~58,000</text>
+    
+    <line x1="8" y1="125" x2="212" y2="125" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <!-- Related lists header -->
+    <text x="14" y="142" fill="#5E6062" font-size="9" font-weight="700">RELATED CONTACTS</text>
+    
+    <rect x="8" y="148" width="204" height="22" fill="#EDF7E1" rx="2"/>
+    <text x="14" y="163" fill="#0C9372" font-size="9" font-weight="700">Dr. Maria Chen</text>
+    <text x="140" y="163" fill="#9A9A9B" font-size="9">Biology</text>
+    
+    <text x="14" y="183" fill="#0C9372" font-size="9">Tom Park</text>
+    <text x="140" y="183" fill="#9A9A9B" font-size="9">Chemistry</text>
+    <line x1="8" y1="189" x2="212" y2="189" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <!-- Step label -->
+    <rect x="45" y="198" width="130" height="24" rx="12" fill="#77AF42"/>
+    <text x="110" y="214" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Record Page</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <g transform="translate(546, 185)">
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#F47641" stroke-width="2.5" marker-end="url(#arrowO)"/>
+    <text x="25" y="-10" fill="#F47641" font-size="9" font-weight="700" text-anchor="middle">click</text>
+  </g>
+  
+  <!-- ===== STEP 3: RELATED RECORD ===== -->
+  <g transform="translate(606, 80)">
+    <rect x="0" y="0" width="170" height="230" fill="#fff" rx="6" stroke="#F47641" stroke-width="2"/>
+    
+    <!-- Record header -->
+    <rect x="0" y="0" width="170" height="50" fill="#0D2C6C" rx="6 6 0 0"/>
+    <rect x="0" y="44" width="170" height="6" fill="#0D2C6C"/>
+    <text x="12" y="18" fill="rgba(255,255,255,0.6)" font-size="9">CONTACT</text>
+    <text x="12" y="38" fill="#fff" font-size="13" font-weight="700">Dr. Maria Chen</text>
+    
+    <!-- Detail fields -->
+    <text x="12" y="70" fill="#9A9A9B" font-size="8" font-weight="700">SUBJECT</text>
+    <text x="12" y="83" fill="#2d2d2d" font-size="10">Biology</text>
+    
+    <text x="100" y="70" fill="#9A9A9B" font-size="8" font-weight="700">STATUS</text>
+    <text x="100" y="83" fill="#77AF42" font-size="10" font-weight="700">Active</text>
+    
+    <text x="12" y="102" fill="#9A9A9B" font-size="8" font-weight="700">PARDOT SCORE</text>
+    <text x="12" y="115" fill="#2d2d2d" font-size="10">62</text>
+    
+    <line x1="8" y1="125" x2="162" y2="125" stroke="#F0F0F0" stroke-width="1"/>
+    
+    <!-- Related lists -->
+    <text x="12" y="142" fill="#5E6062" font-size="9" font-weight="700">RELATED OPPS</text>
+    <text x="12" y="160" fill="#0C9372" font-size="9">Biology 2e</text>
+    <text x="12" y="175" fill="#9A9A9B" font-size="8">Active · 180 students</text>
+    
+    <!-- Step label -->
+    <rect x="15" y="198" width="140" height="24" rx="12" fill="#F47641"/>
+    <text x="85" y="214" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Related Record</text>
+  </g>
+  
+  <!-- Flow summary bar at bottom -->
+  <rect x="30" y="340" width="746" height="80" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <g transform="translate(70, 368)">
+    <rect x="0" y="0" width="120" height="28" rx="14" fill="#0D2C6C"/>
+    <text x="60" y="18" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">List View</text>
+  </g>
+  
+  <text x="210" y="386" fill="#77AF42" font-size="20" font-weight="900">→</text>
+  
+  <g transform="translate(250, 368)">
+    <rect x="0" y="0" width="140" height="28" rx="14" fill="#77AF42"/>
+    <text x="70" y="18" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">Record Page</text>
+  </g>
+  
+  <text x="410" y="386" fill="#F47641" font-size="20" font-weight="900">→</text>
+  
+  <g transform="translate(440, 368)">
+    <rect x="0" y="0" width="160" height="28" rx="14" fill="#F47641"/>
+    <text x="80" y="18" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">Related Record</text>
+  </g>
+  
+  <text x="640" y="386" fill="#5E6062" font-size="12" font-style="italic">Every object.</text>
+  <text x="640" y="402" fill="#5E6062" font-size="12" font-style="italic">Every time.</text>
+  
+  <defs>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#77AF42"/>
+    </marker>
+    <marker id="arrowO" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#F47641"/>
+    </marker>
+  </defs>
+</svg>

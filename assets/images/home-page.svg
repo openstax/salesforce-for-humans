@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Lato, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="300" fill="#F7F8FA" rx="8"/>
+  
+  <!-- Browser frame -->
+  <rect x="20" y="20" width="760" height="250" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Header bar -->
+  <rect x="20" y="20" width="760" height="36" fill="#0D2C6C" rx="6 6 0 0"/>
+  <rect x="20" y="50" width="760" height="6" fill="#0D2C6C"/>
+  
+  <!-- Home tab active -->
+  <text x="42" y="43" fill="#fff" font-size="11" font-weight="700">Home</text>
+  <rect x="42" y="50" width="32" height="3" rx="1.5" fill="#77AF42"/>
+  <text x="95" y="43" fill="rgba(255,255,255,0.5)" font-size="11">Cases</text>
+  <text x="140" y="43" fill="rgba(255,255,255,0.5)" font-size="11">Accounts</text>
+  
+  <!-- Home content area -->
+  <!-- Welcome banner -->
+  <rect x="36" y="70" width="400" height="44" fill="#EDF7E1" rx="4"/>
+  <text x="52" y="88" fill="#2d2d2d" font-size="12" font-weight="700">Good morning!</text>
+  <text x="52" y="104" fill="#5E6062" font-size="10">Here's what's happening today.</text>
+  
+  <!-- Dashboard component area -->
+  <rect x="36" y="124" width="190" height="100" fill="#F7F8FA" rx="4" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="52" y="144" fill="#0D2C6C" font-size="10" font-weight="700">Open Cases This Week</text>
+  <!-- Mini bar chart -->
+  <rect x="52" y="156" width="16" height="38" rx="2" fill="#77AF42" opacity="0.5"/>
+  <rect x="76" y="166" width="16" height="28" rx="2" fill="#77AF42" opacity="0.6"/>
+  <rect x="100" y="150" width="16" height="44" rx="2" fill="#77AF42" opacity="0.7"/>
+  <rect x="124" y="158" width="16" height="36" rx="2" fill="#77AF42" opacity="0.8"/>
+  <rect x="148" y="148" width="16" height="46" rx="2" fill="#77AF42"/>
+  <text x="52" y="210" fill="#9A9A9B" font-size="8">Mon    Tue    Wed    Thu    Fri</text>
+  
+  <rect x="236" y="124" width="200" height="100" fill="#F7F8FA" rx="4" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="252" y="144" fill="#0D2C6C" font-size="10" font-weight="700">My Tasks</text>
+  <rect x="248" y="154" width="8" height="8" rx="2" fill="#F47641"/>
+  <text x="262" y="162" fill="#5E6062" font-size="9">Follow up with Dr. Rivera</text>
+  <rect x="248" y="170" width="8" height="8" rx="2" fill="#FDBD3E"/>
+  <text x="262" y="178" fill="#5E6062" font-size="9">Update HCC adoption records</text>
+  <rect x="248" y="186" width="8" height="8" rx="2" fill="#77AF42"/>
+  <text x="262" y="194" fill="#5E6062" font-size="9">Review Assignable pipeline</text>
+  <text x="252" y="214" fill="#0C9372" font-size="9" font-weight="700">View All →</text>
+  
+  <!-- Recent Records sidebar -->
+  <rect x="450" y="70" width="316" height="154" fill="#F7F8FA" rx="4" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="466" y="90" fill="#0D2C6C" font-size="10" font-weight="700">RECENT RECORDS</text>
+  
+  <text x="466" y="112" fill="#0C9372" font-size="9" font-weight="700">Central Arizona College</text>
+  <text x="620" y="112" fill="#9A9A9B" font-size="8">Account</text>
+  <line x1="466" y1="120" x2="750" y2="120" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <text x="466" y="136" fill="#0C9372" font-size="9" font-weight="700">Dr. Maria Chen</text>
+  <text x="620" y="136" fill="#9A9A9B" font-size="8">Contact</text>
+  <line x1="466" y1="144" x2="750" y2="144" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <text x="466" y="160" fill="#0C9372" font-size="9" font-weight="700">Case #00451922</text>
+  <text x="620" y="160" fill="#9A9A9B" font-size="8">Case</text>
+  <line x1="466" y1="168" x2="750" y2="168" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <text x="466" y="184" fill="#0C9372" font-size="9" font-weight="700">Biology 2e - Fall Push</text>
+  <text x="620" y="184" fill="#9A9A9B" font-size="8">Campaign</text>
+  
+  <!-- Annotations -->
+  <rect x="36" y="238" width="220" height="26" rx="4" fill="#f0f8e8"/>
+  <text x="52" y="256" fill="#5a8a2f" font-size="10">Dashboard components show key metrics</text>
+  
+  <rect x="290" y="238" width="200" height="26" rx="4" fill="#FFF5EE"/>
+  <text x="306" y="256" fill="#F47641" font-size="10">Tasks keep you on track daily</text>
+  
+  <rect x="530" y="238" width="240" height="26" rx="4" fill="#EBF5FE"/>
+  <text x="546" y="256" fill="#0D2C6C" font-size="10">Recent records = quick backtracking</text>
+</svg>

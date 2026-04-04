@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Lato, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="380" fill="#F7F8FA" rx="8"/>
+  
+  <!-- Header bar (partial) -->
+  <rect x="20" y="20" width="760" height="48" fill="#0D2C6C" rx="6"/>
+  
+  <!-- Faded nav tabs -->
+  <text x="42" y="49" fill="rgba(255,255,255,0.3)" font-size="12">Home</text>
+  <text x="95" y="49" fill="rgba(255,255,255,0.3)" font-size="12">Accounts</text>
+  <text x="175" y="49" fill="rgba(255,255,255,0.3)" font-size="12">Contacts</text>
+  
+  <!-- Search bar (prominent, focused state) -->
+  <rect x="320" y="30" width="440" height="30" rx="15" fill="#fff" stroke="#77AF42" stroke-width="2"/>
+  
+  <!-- Scope dropdown -->
+  <rect x="324" y="33" width="80" height="24" rx="12" fill="#F7F8FA"/>
+  <text x="340" y="50" fill="#5E6062" font-size="10" font-weight="700">Contacts</text>
+  <text x="392" y="50" fill="#9A9A9B" font-size="9">▼</text>
+  
+  <!-- Search text -->
+  <text x="416" y="50" fill="#2d2d2d" font-size="12">Houston Community</text>
+  
+  <!-- Search icon -->
+  <circle cx="738" cy="45" r="8" fill="none" stroke="#9A9A9B" stroke-width="1.5"/>
+  <line x1="744" y1="51" x2="749" y2="56" stroke="#9A9A9B" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Callout for scope dropdown -->
+  <circle cx="364" cy="45" r="52" fill="none" stroke="#77AF42" stroke-width="2" stroke-dasharray="4,3"/>
+  
+  <!-- Search results dropdown -->
+  <rect x="320" y="64" width="440" height="240" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1" filter="url(#shadow2)"/>
+  
+  <!-- Recently Viewed section -->
+  <text x="340" y="88" fill="#9A9A9B" font-size="10" font-weight="700" letter-spacing="0.5">RECENTLY VIEWED CONTACTS</text>
+  
+  <!-- Result items -->
+  <g transform="translate(340, 100)">
+    <circle cx="10" cy="10" r="10" fill="#0D2C6C"/>
+    <text x="6" y="14" fill="#fff" font-size="9" font-weight="700">JR</text>
+    <text x="28" y="9" fill="#2d2d2d" font-size="12" font-weight="700">Dr. Jane Rivera</text>
+    <text x="28" y="23" fill="#9A9A9B" font-size="10">Contact · Central Arizona College</text>
+  </g>
+  
+  <line x1="340" y1="132" x2="740" y2="132" stroke="#F0F0F0" stroke-width="1"/>
+  
+  <g transform="translate(340, 140)">
+    <circle cx="10" cy="10" r="10" fill="#0D2C6C"/>
+    <text x="4" y="14" fill="#fff" font-size="9" font-weight="700">MC</text>
+    <text x="28" y="9" fill="#2d2d2d" font-size="12" font-weight="700">Maria Chen</text>
+    <text x="28" y="23" fill="#9A9A9B" font-size="10">Contact · Houston Community College</text>
+  </g>
+  
+  <line x1="340" y1="172" x2="740" y2="172" stroke="#F0F0F0" stroke-width="1"/>
+  
+  <g transform="translate(340, 180)">
+    <circle cx="10" cy="10" r="10" fill="#0D2C6C"/>
+    <text x="4" y="14" fill="#fff" font-size="9" font-weight="700">TP</text>
+    <text x="28" y="9" fill="#2d2d2d" font-size="12" font-weight="700">Tom Park</text>
+    <text x="28" y="23" fill="#9A9A9B" font-size="10">Contact · Houston Community College</text>
+  </g>
+  
+  <line x1="340" y1="212" x2="740" y2="212" stroke="#F0F0F0" stroke-width="1"/>
+  
+  <!-- "Search Contacts for Houston Community" link -->
+  <rect x="340" y="222" width="400" height="28" rx="4" fill="#F7F8FA"/>
+  <text x="356" y="240" fill="#0C9372" font-size="11" font-weight="700">Search Contacts for "Houston Community" →</text>
+  
+  <!-- Annotation callout boxes -->
+  <rect x="20" y="80" width="270" height="60" rx="6" fill="#f0f8e8" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="36" y="100" fill="#2d2d2d" font-size="11" font-weight="700">Scope Your Search</text>
+  <text x="36" y="116" fill="#5E6062" font-size="10">Use the dropdown to search within one</text>
+  <text x="36" y="130" fill="#5E6062" font-size="10">object for faster, more relevant results.</text>
+  <path d="M 290 105 L 320 65" fill="none" stroke="#77AF42" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  
+  <rect x="20" y="160" width="270" height="60" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <text x="36" y="180" fill="#2d2d2d" font-size="11" font-weight="700">Recently Viewed</text>
+  <text x="36" y="196" fill="#5E6062" font-size="10">Click into the search bar to see records</text>
+  <text x="36" y="210" fill="#5E6062" font-size="10">you've viewed recently. Great for backtracking.</text>
+  <path d="M 290 185 L 332 150" fill="none" stroke="#F47641" stroke-width="1.5" marker-end="url(#arrow2o)"/>
+  
+  <!-- Bottom tip -->
+  <rect x="20" y="320" width="760" height="40" rx="6" fill="#EDF7E1"/>
+  <text x="44" y="344" fill="#5a8a2f" font-size="11" font-weight="700">TIP</text>
+  <text x="74" y="344" fill="#5E6062" font-size="11">Email addresses are the best search keys. They're the most unique identifier most people have.</text>
+  
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#77AF42"/>
+    </marker>
+    <marker id="arrow2o" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#F47641"/>
+    </marker>
+    <filter id="shadow2" x="-2%" y="-2%" width="104%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" font-family="Lato, -apple-system, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#F7F8FA" rx="8"/>
+  
+  <!-- Header bar -->
+  <rect x="20" y="20" width="760" height="48" fill="#0D2C6C" rx="6"/>
+  
+  <!-- App Launcher grid -->
+  <g transform="translate(42, 36)">
+    <rect x="0" y="0" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="8" y="0" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="16" y="0" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="0" y="8" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="8" y="8" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="16" y="8" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="0" y="16" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="8" y="16" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+    <rect x="16" y="16" width="5" height="5" rx="1" fill="rgba(255,255,255,0.5)"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="76" y="49" fill="#fff" font-size="13" font-weight="700">Service Console</text>
+  
+  <!-- Nav tabs with active state -->
+  <text x="200" y="49" fill="#fff" font-size="12" font-weight="700">Home</text>
+  <rect x="200" y="60" width="36" height="3" rx="1.5" fill="#77AF42"/>
+  
+  <text x="260" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Cases</text>
+  <text x="310" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Accounts</text>
+  <text x="385" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Contacts</text>
+  <text x="455" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Campaigns</text>
+  <text x="540" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Reports</text>
+  
+  <!-- Pencil/edit icon for customization -->
+  <g transform="translate(600, 36)">
+    <rect x="0" y="0" width="22" height="22" rx="3" fill="rgba(255,255,255,0.1)"/>
+    <path d="M 5 15 L 5 17 L 7 17 L 15 9 L 13 7 Z M 14 6 L 16 8 L 15 9 L 13 7 Z" fill="rgba(255,255,255,0.6)" stroke="none"/>
+  </g>
+  
+  <!-- Callout circle around pencil -->
+  <circle cx="611" cy="47" r="16" fill="none" stroke="#77AF42" stroke-width="2.5" stroke-dasharray="4,3"/>
+  
+  <!-- Search bar -->
+  <rect x="650" y="32" width="110" height="26" rx="13" fill="rgba(255,255,255,0.15)"/>
+  <text x="668" y="50" fill="rgba(255,255,255,0.5)" font-size="10">Search...</text>
+  
+  <!-- Annotation boxes below -->
+  <rect x="40" y="88" width="220" height="52" rx="6" fill="#f0f8e8" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="56" y="108" fill="#2d2d2d" font-size="11" font-weight="700">Navigation Tabs</text>
+  <text x="56" y="124" fill="#5E6062" font-size="10">Objects available in the current App.</text>
+  <path d="M 150 88 L 300 68" fill="none" stroke="#77AF42" stroke-width="1.5"/>
+  
+  <rect x="290" y="88" width="220" height="52" rx="6" fill="#f0f8e8" stroke="#77AF42" stroke-width="1.5"/>
+  <text x="306" y="108" fill="#2d2d2d" font-size="11" font-weight="700">Active Tab (green underline)</text>
+  <text x="306" y="124" fill="#5E6062" font-size="10">Shows which page you're currently on.</text>
+  <path d="M 400 88 L 218 66" fill="none" stroke="#77AF42" stroke-width="1.5"/>
+  
+  <rect x="540" y="88" width="220" height="52" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <text x="556" y="108" fill="#2d2d2d" font-size="11" font-weight="700">Customize (pencil icon)</text>
+  <text x="556" y="124" fill="#5E6062" font-size="10">Add, remove, and reorder your tabs.</text>
+  <path d="M 611 88 L 611 68" fill="none" stroke="#F47641" stroke-width="1.5"/>
+  
+  <!-- Pro tip -->
+  <rect x="40" y="155" width="720" height="30" rx="6" fill="#FFF5EE"/>
+  <text x="60" y="175" fill="#F47641" font-size="11" font-weight="700">PRO TIP</text>
+  <text x="126" y="175" fill="#5E6062" font-size="11">Spend 5 minutes customizing your nav bar in your first week. Future you will be grateful.</text>
+</svg>
