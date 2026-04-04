@@ -37,7 +37,7 @@ When you're on a record page and you see **related lists** at the bottom, you're
 
 ### Why This Matters for Your Daily Work
 
-When you create or update a record, you're not just editing a row in a table. You're modifying a node in a connected web. If you update an email address on a Contact, that change is visible to every team that interacts with that Contact. If you move an Opportunity to a new stage, that change shows up in pipeline reports and forecasts. If you tag a Case with the right product and issue classification, that data feeds support analytics that inform product decisions.
+When you create or update a record, you're not just editing a row in a table. You're modifying a node in a connected web. If you update an email address on a Contact, that change is visible to every team that interacts with that Contact, and it syncs to Account Engagement within minutes. If you tag a Case with the right product and issue classification, that data feeds support analytics that inform product decisions. If you log an activity note with real context, the next person who opens that record walks in informed instead of blind.
 
 The relationship model is the reason Salesforce is more than a fancy database. It's why a single update can ripple across support, sales, marketing, and strategy. And it's why accuracy matters: every connection in the web is only as good as the data at each node.
 

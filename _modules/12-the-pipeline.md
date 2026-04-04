@@ -29,13 +29,19 @@ These numbers roll up into the mission impact figures that OpenStax reports publ
 
 ![The pipeline: Book Opportunity stages progress from Unconfirmed through Active (or Lapsed). Each Opportunity has child Adoption records per school year tracking students and savings. Those individual records roll up into the headline mission impact numbers.]({{ '/assets/images/opportunity-adoption-chain.svg' | relative_url }})
 
-When you confirm that an instructor is still using their OpenStax textbook, that confirmation creates or updates an Adoption record. That Adoption record feeds the school year's impact numbers. Those impact numbers go into funder reports, board presentations, and the OpenStax website. The chain from your click to the headline number is direct and traceable.
+Most of this data flows in automatically. When an instructor fills out a re-confirmation form on openstax.org, when behavioral signals from the website indicate continued usage, or when a third-party data source validates an adoption, the automated pipelines create and update Adoption records without anyone clicking a button. The chain from form submission to headline impact number is direct and largely hands-off.
+
+That said, sometimes you learn about an adoption through a conversation, a support call, or a campus visit. When that happens, there's a **screen flow on the Contact record** specifically designed for this. It walks you through capturing what you learned and routes it into the right pipeline. You don't need to manually create Adoption records or edit Opportunity stages. Use the flow, and the system handles the rest.
+
+**A general rule: Adoption records and Assignable records (outside of interest-related fields) should not be edited manually.** They're maintained by automated processes that keep them accurate and consistent. If something looks wrong, flag it for your admin or the data team rather than editing it directly.
 
 ### Pipeline Stages and Why They Matter
 
-Every Opportunity sits at a stage, and that stage tells a story about where the relationship is in its journey. Moving an Opportunity from one stage to the next isn't just bookkeeping — it's how the organization understands its pipeline.
+Every Opportunity sits at a stage, and that stage tells a story about where the relationship is in its journey.
 
-When leadership asks "how many instructors are actively using our books this year?" or "what's the Assignable revenue forecast for Q3?", the answer comes from counting Opportunities at specific stages. If stages aren't updated, the pipeline view is wrong. If a lapsed adoption isn't marked as lapsed, it inflates the active count. If a closed deal isn't moved to Closed Won, it's missing from the revenue forecast.
+For **Book Opportunities**, stage progression is largely automated. Re-confirmation forms, behavioral data from the website, and third-party adoption sources drive stage changes from Unconfirmed through Active. Lapsed status is applied when a previously confirmed adoption doesn't get re-confirmed in a new school year. You'll see these stages on records, and understanding what they mean helps you interpret the data, but you generally don't need to change them yourself.
 
-Stage accuracy is a team effort. The data is only as good as the updates.
+For **Assignable Opportunities**, the instructor-level pipeline has more human touchpoints. Sales reps working with instructors evaluating the platform may update stages as conversations progress through discovery, demo, and implementation. Student-level records are automated from purchase and access code activity.
+
+When leadership asks "how many instructors are actively using our books this year?" or "what's the Assignable revenue forecast for Q3?", the answer comes from counting Opportunities at specific stages. The automated pipelines keep the vast majority of this data current, which is why protecting those pipelines (and not manually overriding their work) matters.
 

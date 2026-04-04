@@ -5,11 +5,11 @@ short_title: "The Bigger Picture"
 description: "How a single field update ripples through support, sales, marketing, and mission impact reporting."
 ---
 
-Let's zoom all the way out and trace the full journey from a single field update to an organizational outcome.
+Let's zoom all the way out and trace the full journey from a single data event to an organizational outcome.
 
-An instructor at a community college in Arizona confirms that she's still using OpenStax Biology 2e this semester. Maybe she filled out a renewal form on the website. Maybe she told a sales rep on a phone call, and the rep updated the Opportunity. Maybe she responded to an email confirmation.
+An instructor at a community college in Arizona fills out a re-confirmation form on openstax.org, indicating she's still using OpenStax Biology 2e this semester. The automated pipeline picks up the submission and processes it. (Alternatively, maybe behavioral signals from her students' activity on the platform triggered the same pipeline. Or maybe a sales rep heard about her continued usage on a call and captured it through the screen flow on her Contact record.)
 
-However it happened, here's what flows from that single confirmation:
+However the signal arrived, here's what the system does with that single confirmation:
 
 1. **Her Opportunity** moves to the "Active" stage, confirming she's currently using the textbook
 2. **An Adoption record** is created (or updated) for the current school year, recording how many students she has and the estimated savings
@@ -25,7 +25,7 @@ One confirmation. Nine downstream effects. And that's just one record.
 
 ![One adoption confirmation triggers nine downstream effects: Opportunity stage updates, Adoption record created, Contact status changes, Account profile updates, mission impact totals increment, pipeline reports reflect it, marketing adjusts messaging, the web personalizes, and support gets context. One click, nine ripples.]({{ '/assets/images/ripple-cascade.svg' | relative_url }})
 
-Now multiply that by every person at OpenStax who touches a record today. Every adoption confirmed, every Case tagged accurately, every email address updated, every activity logged with useful notes, every duplicate merged, every field filled in thoughtfully. Each one is a small contribution. Together, they're the foundation that everything else runs on.
+Now multiply that by every data event across OpenStax today. Automated pipelines processing adoption confirmations, web forms creating Leads, Account Engagement syncing engagement scores. And alongside those pipelines: every Case tagged accurately by a support agent, every email address updated by someone who noticed a bounce, every activity logged with real context, every duplicate flagged, every institution field filled in by someone who learned something on a call. The automated systems and human contributions work together. Neither is sufficient alone.
 
 The data team doesn't build reports from magic. They build them from the records you maintain. Leadership doesn't make strategy from gut feeling alone. They make it from the dashboards built on your data. Marketing doesn't personalize emails through telepathy. They personalize them using the fields you keep current.
 

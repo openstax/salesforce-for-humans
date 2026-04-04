@@ -26,9 +26,20 @@ Let's make this concrete with OpenStax examples:
 Data quality is a shared responsibility. You don't need special permissions to make a difference:
 
 - **Check before you create.** Before making a new Contact or Account, search for it first. Duplicates are far easier to prevent than to clean up.
-- **Fill in what you know.** If you're on a call and learn that a school uses Canvas, update the LMS field. If an instructor mentions they're teaching Chemistry this fall, update their Subject Interest. These small additions compound.
+- **Fill in what you know.** If you're on a call and learn that a school uses Canvas, update the LMS field on the Account. If an instructor mentions they're teaching Chemistry this fall, update their Subject Interest on the Contact. These small additions compound.
 - **Flag what's wrong.** If you notice a duplicate, an outdated email, or data that doesn't look right, flag it. Tell your admin. Log a case with the data team. Don't just work around it.
 - **Use the duplicate detection tools.** Salesforce flags potential duplicates when you create records. Don't dismiss these warnings without checking — they're often right.
+
+### What NOT to Edit
+
+Some records are maintained by automated pipelines and should generally be left alone:
+
+- **Adoption records** are created and updated by automated processes that track re-confirmation forms, behavioral signals, and third-party data. If an Adoption looks wrong, flag it for the data team rather than editing it directly.
+- **Assignable records** (access codes, transactions, student-level data) flow in from the platform's payment and provisioning systems. Outside of interest-related fields, these shouldn't be manually modified.
+- **Book Opportunity stages** are managed by the same automated pipelines that process adoption data. You don't need to move a Book Opp from "Unconfirmed" to "Active" yourself.
+- **Pardot/Account Engagement fields** (the `pi__` fields on Contacts) are synced from Account Engagement. Editing them in Salesforce won't stick — the next sync overwrites your change.
+
+If you learn about an adoption or confirmed usage through a conversation or campus visit, use the **screen flow on the Contact record** to capture what you learned. The flow routes it into the right automated pipeline so the Opportunity, Adoption, and related records update correctly.
 
 ### The Multiplier Effect
 
