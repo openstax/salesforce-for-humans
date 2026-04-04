@@ -1,0 +1,34 @@
+---
+layout: default
+title: Home
+---
+
+<div class="landing">
+
+  <div class="hero">
+    <h1>Salesforce for Humans</h1>
+    <p class="subtitle">How OpenStax Manages Relationships, Tracks Its Mission, and Turns Data Into Impact</p>
+    <p class="byline">OpenStax · Data Intelligence Team</p>
+  </div>
+
+  <div class="epigraph">
+    A free, open educational resource company writing a book about how it manages data. Yes, the irony is deliberate. Yes, we love it.<br><br>
+    This book is an exploration of how OpenStax uses Salesforce to track its relationships with educators, students, institutions, and partners — and how every person who touches the system contributes to the mission of making education more accessible. It's written for anyone who's curious about how the pieces fit together, whether you've used Salesforce for years or just got your login yesterday.
+  </div>
+
+  <h2 class="modules-heading" id="modules">Modules</h2>
+
+  <div class="module-grid">
+    {% assign sorted_modules = site.modules | sort: "number" %}
+    {% for mod in sorted_modules %}
+      <a href="{{ mod.url | relative_url }}" class="module-card">
+        <span class="card-number">{{ mod.number }}</span>
+        <div class="card-body">
+          <h3>{{ mod.title }}</h3>
+          <p>{{ mod.description }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+</div>

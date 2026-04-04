@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+{% assign sorted_modules = site.modules | sort: "number" %}
+{% assign current_index = nil %}
+{% for mod in sorted_modules %}
+  {% if mod.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% if current_index != nil %}
+  {% assign prev_index = current_index | minus: 1 %}
+  {% assign next_index = current_index | plus: 1 %}
+  {% if prev_index >= 0 %}
+    {% assign prev_module = sorted_modules[prev_index] %}
+  {% endif %}
+  {% if next_index < sorted_modules.size %}
+    {% assign next_module = sorted_modules[next_index] %}
+  {% endif %}
+{% endif %}
+
+<article class="module-page">
+  <div class="module-layout">
+
+    <aside class="module-sidebar">
+      <div class="sidebar-sticky">
+        <h3 class="sidebar-heading">Modules</h3>
+        <ol class="sidebar-toc">
+          {% for mod in sorted_modules %}
+            <li class="{% if mod.url == page.url %}is-active{% endif %}">
+              <a href="{{ mod.url | relative_url }}">
+                <span class="toc-number">{{ mod.number }}</span>
+                <span class="toc-title">{{ mod.short_title | default: mod.title }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </aside>
+
+    <div class="module-content">
+      <div class="module-header">
+        <span class="module-number">Module {{ page.number }}</span>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="module-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+
+      <div class="module-body prose">
+        {{ content }}
+      </div>
+
+      <nav class="module-nav">
+        <div class="nav-prev">
+          {% if prev_module %}
+            <a href="{{ prev_module.url | relative_url }}">
+              <span class="nav-label">← Previous</span>
+              <span class="nav-title">{{ prev_module.short_title | default: prev_module.title }}</span>
+            </a>
+          {% endif %}
+        </div>
+        <div class="nav-home">
+          <a href="{{ '/' | relative_url }}">All Modules</a>
+        </div>
+        <div class="nav-next">
+          {% if next_module %}
+            <a href="{{ next_module.url | relative_url }}">
+              <span class="nav-label">Next →</span>
+              <span class="nav-title">{{ next_module.short_title | default: next_module.title }}</span>
+            </a>
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+
+  </div>
+</article>
