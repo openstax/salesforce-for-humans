@@ -42,26 +42,23 @@
   <line x1="40" y1="225" x2="560" y2="225" stroke="#E5E7EB" stroke-width="1"/>
   <text x="56" y="244" fill="#9A9A9B" font-size="10">… and about 110,000 more</text>
 
-  <path d="M 56 84 L 56 76 L 500 76 L 500 84" fill="none" stroke="#F47641" stroke-width="1.5"/>
-  <line x1="278" y1="76" x2="278" y2="62" stroke="#F47641" stroke-width="1.5" marker-end="url(#arrOr)"/>
-
   <rect x="41" y="141" width="518" height="28" fill="none" stroke="#77AF42" stroke-width="2.5" rx="3"/>
   <line x1="560" y1="155" x2="590" y2="155" stroke="#77AF42" stroke-width="1.5"/>
 
-  <rect x="600" y="60" width="175" height="50" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <rect x="600" y="60" width="175" height="58" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
   <text x="616" y="80" fill="#F47641" font-size="12" font-weight="900">Fields</text>
   <text x="616" y="96" fill="#5E6062" font-size="10">= Columns. Each piece</text>
-  <text x="616" y="108" fill="#5E6062" font-size="9">of info about a record.</text>
+  <text x="616" y="108" fill="#5E6062" font-size="10">of info about a record.</text>
 
-  <rect x="600" y="128" width="175" height="50" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
+  <rect x="600" y="128" width="175" height="58" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
   <text x="616" y="148" fill="#5a8a2f" font-size="12" font-weight="900">Record</text>
   <text x="616" y="164" fill="#5E6062" font-size="10">= One row. A specific</text>
-  <text x="616" y="176" fill="#5E6062" font-size="9">school, person, or case.</text>
+  <text x="616" y="176" fill="#5E6062" font-size="10">school, person, or case.</text>
 
-  <rect x="600" y="196" width="175" height="50" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
+  <rect x="600" y="196" width="175" height="58" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
   <text x="616" y="216" fill="#0D2C6C" font-size="12" font-weight="900">Object</text>
   <text x="616" y="232" fill="#5E6062" font-size="10">= The whole table. A</text>
-  <text x="616" y="244" fill="#5E6062" font-size="9">kind of thing (Accounts).</text>
+  <text x="616" y="244" fill="#5E6062" font-size="10">kind of thing (Accounts).</text>
 
   <rect x="40" y="290" width="735" height="72" rx="6" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
 

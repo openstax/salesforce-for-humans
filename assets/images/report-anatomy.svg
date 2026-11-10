@@ -77,25 +77,25 @@
   <text x="510" y="336" fill="#fff" font-size="10" font-weight="900">$152,800</text>
 
   <!-- Right-side annotation callouts -->
-  <rect x="594" y="78" width="186" height="44" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
+  <rect x="594" y="78" width="186" height="52" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
   <text x="610" y="96" fill="#5a8a2f" font-size="10" font-weight="900">Filters</text>
   <text x="610" y="112" fill="#5E6062" font-size="9">Modify these to slice the data</text>
   <text x="610" y="122" fill="#5E6062" font-size="9">for your specific question.</text>
   <line x1="594" y1="100" x2="570" y2="97" stroke="#77AF42" stroke-width="1.5"/>
 
-  <rect x="594" y="134" width="186" height="44" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
+  <rect x="594" y="134" width="186" height="52" rx="6" fill="#EBF5FE" stroke="#0D2C6C" stroke-width="1.5"/>
   <text x="610" y="152" fill="#0D2C6C" font-size="10" font-weight="900">Columns</text>
   <text x="610" y="168" fill="#5E6062" font-size="9">The fields included in</text>
   <text x="610" y="178" fill="#5E6062" font-size="9">the report output.</text>
   <line x1="594" y1="156" x2="570" y2="132" stroke="#0D2C6C" stroke-width="1.5"/>
 
-  <rect x="594" y="196" width="186" height="44" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <rect x="594" y="196" width="186" height="52" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
   <text x="610" y="214" fill="#F47641" font-size="10" font-weight="900">Groupings</text>
   <text x="610" y="230" fill="#5E6062" font-size="9">Records organized by a</text>
   <text x="610" y="240" fill="#5E6062" font-size="9">shared value (school).</text>
   <line x1="594" y1="218" x2="570" y2="156" stroke="#F47641" stroke-width="1.5"/>
 
-  <rect x="594" y="256" width="186" height="44" rx="6" fill="#FFF9E5" stroke="#FDBD3E" stroke-width="1.5"/>
+  <rect x="594" y="256" width="186" height="52" rx="6" fill="#FFF9E5" stroke="#FDBD3E" stroke-width="1.5"/>
   <text x="610" y="274" fill="#0D2C6C" font-size="10" font-weight="900">Summary Rows</text>
   <text x="610" y="290" fill="#5E6062" font-size="9">Totals, averages, or counts</text>
   <text x="610" y="300" fill="#5E6062" font-size="9">for each group.</text>
