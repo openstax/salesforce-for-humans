@@ -59,7 +59,7 @@ Row-level student data for research needs FERPA training and approval through th
 It happens to careful people. You pasted the wrong report, shared a file with the wrong group, or sent a screenshot with a student's email in the corner.
 
 1. **Stop.** Don't forward it or add to it.
-2. **Tell the Data Intelligence team right away**, in #data-intel or by direct message. Say what was shared, where, and when.
+2. **Tell the Data Intelligence team right away** by direct message rather than in a channel, so the details don't spread further. Say what was shared, where, and when.
 3. **Leave the cleanup to the team.** They'll tell you what, if anything, you need to do. The sooner they know, the easier it is to fix.
 
 For more on keeping the records themselves tidy, see [Keeping Data Clean]({{ '/modules/08-keeping-data-clean/' | relative_url }}). For who to contact and how, see [Getting Help]({{ '/modules/19-getting-help/' | relative_url }}).

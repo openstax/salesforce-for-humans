@@ -83,9 +83,9 @@ Someone will eventually show you a Tableau figure and a Salesforce report that d
 
 So when you quote a number, say how you got it:
 
-> ✅ "2,950 students in confirmed adoptions (OpenStax or Third Party Confirmed), school year 2026 - 27, rollover off, from the Adoptions Dashboard as of November 9."
+> ✅ "Cedar Bluff Community College: 410 students in confirmed adoptions (OpenStax or Third Party Confirmed), school year 2026 - 27, rollover off, from the Adoptions Dashboard as of November 9."
 
-> ❌ "About 3,000 students use Anatomy and Physiology 2e."
+> ❌ "About 400 Cedar Bluff students use OpenStax."
 
 For official impact figures, point to OpenStax's published numbers rather than repeating a total from memory. They change.
 

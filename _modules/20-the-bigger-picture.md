@@ -23,7 +23,7 @@ Dr. Maya Rivera teaches Anatomy & Physiology at Cedar Bluff Community College. S
 3. **Her Contact updates.** Adoption Status reads "Current Adopter." Her Engagement Tier stays Champion (adopter, three or more years, recently engaged).
 4. **Cedar Bluff's counts refresh overnight.** The school's adoption counts go up by one, and its Assignable Fit Tier is recalculated from how many instructors there have confirmed adoptions.
 5. **Marketing segments update.** Her next message is a thank-you, not "Have you considered adopting?"
-6. **openstax.org shows her renewal as done**, so her 2026 - 27 confirmation is visible to her on the site.
+6. **openstax.org catches up within a few hours.** The website looks up adoption and renewal status from Salesforce, so it now treats her as a current adopter.
 7. **Tableau's impact numbers include her students the next day**, after the daily refresh. They count toward students reached and estimated savings.
 8. **The next CX agent sees all of it.** If Dr. Rivera opens a Case next week, the agent sees a long-time Champion at an active school, and can answer accordingly.
 

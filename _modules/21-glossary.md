@@ -86,6 +86,10 @@ Short definitions for the terms you'll hear in meetings and see on screen. Each 
 
 **Individual.** The one consent record per person, shared by their Lead and Contact. See [Account Engagement]({{ '/modules/15-account-engagement/' | relative_url }}).
 
+## K
+
+**KIP.** Key Institutional Partner: a school in OpenStax's institutional partner program. The KIP checkbox and KIP Start Year sit on the school's Account. See [Records, Objects, and Fields]({{ '/modules/02-records-objects-fields/' | relative_url }}).
+
 ## L
 
 **Lapsed.** A Book Opp stage: confirmed in an earlier school year, not yet this year. Not lost; the instructor may well return. See [Adoptions]({{ '/modules/12-adoptions-and-impact/' | relative_url }}).

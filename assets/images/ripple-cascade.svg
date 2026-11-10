@@ -38,8 +38,8 @@
 <rect x="410" y="204" width="370" height="58" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
 <circle cx="434" cy="233" r="14" fill="#0C9372"/>
 <text x="434" y="238" fill="#fff" font-size="12" font-weight="900" text-anchor="middle">6</text>
-<text x="458" y="230" fill="#0D2C6C" font-size="10" font-weight="700">openstax.org: her renewal shows as done</text>
-<text x="458" y="247" fill="#5E6062" font-size="9">Her 2026 - 27 renewal is complete</text>
+<text x="458" y="230" fill="#0D2C6C" font-size="10" font-weight="700">openstax.org catches up within hours</text>
+<text x="458" y="247" fill="#5E6062" font-size="9">The site reads her status from Salesforce</text>
 <line x1="434" y1="262" x2="434" y2="278" stroke="#0C9372" stroke-width="1.5"/>
 <rect x="410" y="278" width="370" height="58" rx="6" fill="#fff" stroke="#77AF42" stroke-width="1.5"/>
 <circle cx="434" cy="307" r="14" fill="#77AF42"/>
