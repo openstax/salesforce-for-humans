@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Lato, -apple-system, sans-serif">
-  <!-- Background -->
-  <rect width="800" height="340" fill="#F7F8FA" rx="8"/>
-  
-  <!-- Browser chrome -->
-  <rect x="20" y="20" width="760" height="280" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
-  
-  <!-- Salesforce header bar -->
-  <rect x="20" y="20" width="760" height="48" fill="#0D2C6C" rx="6 6 0 0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="380" fill="#F7F8FA" rx="8"/>
+  <rect x="20" y="20" width="760" height="340" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="20" y="20" width="760" height="48" fill="#0D2C6C" rx="6"/>
   <rect x="20" y="62" width="760" height="6" fill="#0D2C6C"/>
-  
-  <!-- App Launcher icon (grid of dots) -->
+
   <g transform="translate(42, 36)">
     <rect x="0" y="0" width="6" height="6" rx="1" fill="#fff"/>
     <rect x="9" y="0" width="6" height="6" rx="1" fill="#fff"/>
@@ -21,67 +15,67 @@
     <rect x="9" y="18" width="6" height="6" rx="1" fill="#fff"/>
     <rect x="18" y="18" width="6" height="6" rx="1" fill="#fff"/>
   </g>
-  
-  <!-- Callout circle around App Launcher -->
   <circle cx="54" cy="44" r="22" fill="none" stroke="#F47641" stroke-width="2.5" stroke-dasharray="4,3"/>
-  
-  <!-- App name next to launcher -->
-  <text x="82" y="49" fill="#fff" font-size="14" font-weight="700">Sales Console</text>
-  
-  <!-- Nav tabs -->
-  <text x="210" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Home</text>
-  <text x="270" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Accounts</text>
-  <text x="350" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Contacts</text>
-  <text x="430" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Opportunities</text>
-  <text x="540" y="49" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="400">Reports</text>
-  
-  <!-- Search bar -->
+
+  <text x="86" y="49" fill="#fff" font-size="14" font-weight="700">OpenStax</text>
+  <text x="210" y="49" fill="rgba(255,255,255,0.7)" font-size="12">Home</text>
+  <text x="270" y="49" fill="rgba(255,255,255,0.7)" font-size="12">Accounts</text>
+  <text x="350" y="49" fill="rgba(255,255,255,0.7)" font-size="12">Contacts</text>
+  <text x="430" y="49" fill="rgba(255,255,255,0.7)" font-size="12">Opportunities</text>
+  <text x="540" y="49" fill="rgba(255,255,255,0.7)" font-size="12">Reports</text>
   <rect x="610" y="32" width="150" height="26" rx="13" fill="rgba(255,255,255,0.15)"/>
-  <text x="630" y="50" fill="rgba(255,255,255,0.5)" font-size="11">Search Salesforce</text>
-  
-  <!-- App Launcher dropdown panel -->
-  <rect x="32" y="72" width="280" height="200" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1" filter="url(#shadow)"/>
-  
-  <!-- Search in launcher -->
-  <rect x="48" y="86" width="248" height="30" rx="4" fill="#F7F8FA" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="62" y="106" fill="#9A9A9B" font-size="11">Search apps and items...</text>
-  
-  <!-- App items -->
-  <text x="48" y="140" fill="#5E6062" font-size="10" font-weight="700" letter-spacing="0.5">ALL APPS</text>
-  
-  <g transform="translate(48, 152)">
-    <rect x="0" y="0" width="24" height="24" rx="4" fill="#0D2C6C"/>
-    <text x="7" y="16" fill="#fff" font-size="10" font-weight="700">S</text>
-    <text x="32" y="10" fill="#2d2d2d" font-size="12" font-weight="700">Sales Console</text>
-    <text x="32" y="24" fill="#9A9A9B" font-size="10">Accounts, Contacts, Opps</text>
+  <text x="630" y="50" fill="rgba(255,255,255,0.6)" font-size="11">Search Salesforce</text>
+
+  <rect x="32" y="76" width="410" height="268" fill="#fff" rx="6" stroke="#E5E7EB" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="48" y="90" width="378" height="30" rx="4" fill="#F7F8FA" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="62" y="110" fill="#6B6D6F" font-size="11">Search apps and items...</text>
+  <text x="48" y="145" fill="#5E6062" font-size="10" font-weight="700" letter-spacing="0.5">ALL APPS</text>
+
+  <g transform="translate(48, 160)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#0D2C6C"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">O</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">OpenStax</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">The main app most staff use</text>
   </g>
-  
-  <g transform="translate(48, 184)">
-    <rect x="0" y="0" width="24" height="24" rx="4" fill="#0C9372"/>
-    <text x="6" y="16" fill="#fff" font-size="10" font-weight="700">SC</text>
-    <text x="32" y="10" fill="#2d2d2d" font-size="12" font-weight="700">Service Console</text>
-    <text x="32" y="24" fill="#9A9A9B" font-size="10">Cases, Knowledge, Omni-Channel</text>
+  <g transform="translate(240, 160)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#0C9372"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Sv</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">Service</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">Cases, phone, chat, Knowledge</text>
   </g>
-  
-  <g transform="translate(48, 216)">
-    <rect x="0" y="0" width="24" height="24" rx="4" fill="#F47641"/>
-    <text x="5" y="16" fill="#fff" font-size="10" font-weight="700">M</text>
-    <text x="32" y="10" fill="#2d2d2d" font-size="12" font-weight="700">Marketing</text>
-    <text x="32" y="24" fill="#9A9A9B" font-size="10">Campaigns, Leads</text>
+  <g transform="translate(48, 210)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#5E6062"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">F</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">Finance</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">For the Finance team</text>
   </g>
-  
-  <!-- Annotation arrow and label -->
-  <line x1="76" y1="44" x2="150" y2="44" stroke="#F47641" stroke-width="0" />
-  
-  <!-- Callout label -->
-  <rect x="380" y="130" width="360" height="80" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
-  <text x="400" y="155" fill="#2d2d2d" font-size="13" font-weight="700">App Launcher</text>
-  <text x="400" y="173" fill="#5E6062" font-size="11">Click the grid icon to switch between Apps.</text>
-  <text x="400" y="189" fill="#5E6062" font-size="11">Same data, different lens for each team.</text>
-  
-  <!-- Arrow from callout to launcher -->
-  <path d="M 380 160 L 320 125 L 314 100" fill="none" stroke="#F47641" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-  
+  <g transform="translate(240, 210)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#C2410C"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Ph</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">Philanthropy</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">For Fundraising</text>
+  </g>
+  <g transform="translate(48, 260)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#0D2C6C"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">Ca</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">Campaigns</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">Marketing campaigns</text>
+  </g>
+  <g transform="translate(240, 260)">
+    <rect x="0" y="0" width="26" height="26" rx="4" fill="#0C9372"/>
+    <text x="13" y="17" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">PM</text>
+    <text x="36" y="11" fill="#2d2d2d" font-size="12" font-weight="700">Partner Manager</text>
+    <text x="36" y="25" fill="#6B6D6F" font-size="9">Partner organizations</text>
+  </g>
+  <text x="48" y="320" fill="#6B6D6F" font-size="9" font-style="italic">You see the apps your role needs. Pardot and others appear for the teams that use them.</text>
+
+  <rect x="470" y="140" width="290" height="96" rx="6" fill="#FFF5EE" stroke="#F47641" stroke-width="1.5"/>
+  <text x="490" y="167" fill="#2d2d2d" font-size="13" font-weight="700">App Launcher</text>
+  <text x="490" y="187" fill="#5E6062" font-size="11">Click the grid icon (top left) to switch apps.</text>
+  <text x="490" y="205" fill="#5E6062" font-size="11">Same data underneath, different tabs</text>
+  <text x="490" y="221" fill="#5E6062" font-size="11">and pages for each kind of work.</text>
+  <path d="M 470 188 L 446 188" fill="none" stroke="#F47641" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
   <defs>
     <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#F47641"/>
