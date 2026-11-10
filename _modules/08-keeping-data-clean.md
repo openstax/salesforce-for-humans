@@ -36,7 +36,7 @@ Salesforce checks for matches when a record is created. The rules differ by obje
 | **Contact** and **Lead** | A **warning** appears with the possible match. Open it and look. Don't click past it. |
 | **Opportunity** | Opportunities **can't be merged**, so check the Contact's existing Book Opps before opening a new one. |
 
-Salesforce can merge Contacts, Leads, and Accounts. Donation records with the same email can be merged too, but records with different donor IDs can't. Ask the data team rather than merging by hand.
+Salesforce can merge duplicate Contacts, Leads, and Accounts. If you aren't sure which record should survive, ask in #data-intel before you merge. Donor Contacts are stricter: two with the same email can be merged, but two with different donor IDs can't.
 
 When a new Lead matches an existing Contact, the answer is usually to work the Contact. The person is already confirmed, and the signup process merges new details into the Contact anyway. See [From Signup to Contact]({{ '/modules/10-from-signup-to-contact/' | relative_url }}).
 

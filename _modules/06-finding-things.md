@@ -50,7 +50,7 @@ Other filters worth knowing: on Contacts, **Adoption Status** and **Instructor E
 
 ### Fix things in place
 
-Spot a blank LMS in the list? Click the pencil that appears at the right edge of the cell (or double-click the cell), type, and save. Nothing else opens. Fields the system calculates, such as Assignable Fit Tier, won't offer the pencil.
+Spot a blank LMS in the list? Click the pencil that appears at the right edge of the cell (or double-click the cell), type, and save. Nothing else opens. Fields the system calculates, such as a Contact's Instructor Engagement Tier, won't offer the pencil, and fields automation fills (like Assignable Fit Tier) shouldn't be edited even when they do.
 
 ## Recently Viewed
 

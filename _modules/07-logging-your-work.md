@@ -67,7 +67,7 @@ Since November 2026 an **open Task means real work you own**. Thousands of stale
 
 ## Email from Salesforce and unsubscribing
 
-Sales and outreach emails sent from Salesforce must give the person a way to unsubscribe (that's the US CAN-SPAM rule). If someone replies "please stop emailing me", record it on their Contact and on their Lead if they have an open one. Consent is stored once per person, but Lead handling is older, so check both. Marketing email at scale goes through marketing, not through Salesforce.
+Sales and outreach emails sent from Salesforce must give the person a way to unsubscribe (that's the US CAN-SPAM rule). If someone replies "please stop emailing me", record it on their Contact and on their Lead if they have an open one. Consent is stored once per person, but Lead handling is older, so check both. Email to large groups goes through the marketing team and Account Engagement, not from your own Salesforce inbox.
 
 ## Chatter, Slack, or email
 
