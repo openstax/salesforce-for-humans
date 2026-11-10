@@ -1,15 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="Lato, -apple-system, sans-serif">
   <rect width="800" height="360" fill="#F7F8FA" rx="8"/>
-  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">What Bad Data Actually Costs</text>
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">What Bad Data Costs</text>
+  <text x="770" y="28" fill="#6B6D6F" font-size="9" text-anchor="end">Example data</text>
 
   <!-- Two duplicate records -->
   <rect x="40" y="50" width="220" height="120" fill="#fff" rx="6" stroke="#C22032" stroke-width="2"/>
   <rect x="40" y="50" width="220" height="28" fill="#C22032" rx="6 6 0 0"/>
   <rect x="40" y="72" width="220" height="6" fill="#C22032"/>
-  <text x="150" y="69" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">CONTACT — Record A</text>
-  <text x="56" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Jane Rivera</text>
+  <text x="150" y="69" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">CONTACT: Record A</text>
+  <text x="56" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Maya Rivera</text>
   <text x="56" y="112" fill="#5E6062" font-size="9">1 adoption, 0 cases</text>
-  <text x="56" y="128" fill="#5E6062" font-size="9">Pardot score: 22</text>
+  <text x="56" y="128" fill="#5E6062" font-size="9">Old email address</text>
   <text x="56" y="144" fill="#5E6062" font-size="9">1 campaign</text>
   <text x="56" y="160" fill="#9A9A9B" font-size="8" font-style="italic">Half the picture</text>
 
@@ -18,10 +19,10 @@
   <rect x="320" y="50" width="220" height="120" fill="#fff" rx="6" stroke="#C22032" stroke-width="2"/>
   <rect x="320" y="50" width="220" height="28" fill="#C22032" rx="6 6 0 0"/>
   <rect x="320" y="72" width="220" height="6" fill="#C22032"/>
-  <text x="430" y="69" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">CONTACT — Record B</text>
-  <text x="336" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Jane Rivera, PhD</text>
+  <text x="430" y="69" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">CONTACT: Record B</text>
+  <text x="336" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Maya Rivera, PhD</text>
   <text x="336" y="112" fill="#5E6062" font-size="9">2 adoptions, 1 case</text>
-  <text x="336" y="128" fill="#5E6062" font-size="9">Pardot score: 45</text>
+  <text x="336" y="128" fill="#5E6062" font-size="9">Current email address</text>
   <text x="336" y="144" fill="#5E6062" font-size="9">3 campaigns</text>
   <text x="336" y="160" fill="#9A9A9B" font-size="8" font-style="italic">The other half</text>
 
@@ -30,9 +31,9 @@
   <rect x="580" y="50" width="200" height="28" fill="#77AF42" rx="6 6 0 0"/>
   <rect x="580" y="72" width="200" height="6" fill="#77AF42"/>
   <text x="680" y="69" fill="#fff" font-size="10" font-weight="700" text-anchor="middle">SHOULD BE ONE RECORD</text>
-  <text x="596" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Jane Rivera</text>
+  <text x="596" y="96" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Maya Rivera</text>
   <text x="596" y="112" fill="#5E6062" font-size="9">3 adoptions, 1 case</text>
-  <text x="596" y="128" fill="#5E6062" font-size="9">Pardot score: 67</text>
+  <text x="596" y="128" fill="#5E6062" font-size="9">Current email address</text>
   <text x="596" y="144" fill="#5E6062" font-size="9">4 campaigns</text>
   <text x="596" y="160" fill="#77AF42" font-size="8" font-weight="700">The full story</text>
 
@@ -46,13 +47,13 @@
 
   <rect x="285" y="216" width="230" height="48" rx="6" fill="#FFF0F0" stroke="#C22032" stroke-width="1"/>
   <text x="301" y="234" fill="#C22032" font-size="10" font-weight="700">Marketing double-sends</text>
-  <text x="301" y="250" fill="#5E6062" font-size="9">Person gets the same email twice, or</text>
+  <text x="301" y="250" fill="#5E6062" font-size="9">She gets the same email twice, or</text>
   <text x="301" y="262" fill="#5E6062" font-size="9">falls through filter cracks entirely</text>
 
   <rect x="530" y="216" width="230" height="48" rx="6" fill="#FFF0F0" stroke="#C22032" stroke-width="1"/>
   <text x="546" y="234" fill="#C22032" font-size="10" font-weight="700">Adoption count is wrong</text>
-  <text x="546" y="250" fill="#5E6062" font-size="9">Impact numbers split across records,</text>
-  <text x="546" y="262" fill="#5E6062" font-size="9">institution totals don't add up</text>
+  <text x="546" y="250" fill="#5E6062" font-size="9">Adoption history split in two,</text>
+  <text x="546" y="262" fill="#5E6062" font-size="9">school totals look off</text>
 
   <!-- Prevention tip -->
   <rect x="40" y="284" width="720" height="60" rx="6" fill="#EDF7E1" stroke="#77AF42" stroke-width="1.5"/>
@@ -60,5 +61,5 @@
   <text x="60" y="324" fill="#5E6062" font-size="10" font-weight="700">Check before you create.</text>
   <text x="230" y="324" fill="#5E6062" font-size="10">Search first. Duplicates are far easier to prevent than to clean up.</text>
   <text x="60" y="338" fill="#5E6062" font-size="10" font-weight="700">Fill in what you know.</text>
-  <text x="215" y="338" fill="#5E6062" font-size="10">Small additions compound. Flag what's wrong. Don't work around it.</text>
+  <text x="215" y="338" fill="#5E6062" font-size="10">Small additions add up. Flag what is wrong in #data-intel.</text>
 </svg>

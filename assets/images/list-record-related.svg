@@ -15,39 +15,33 @@
     <rect x="0" y="0" width="220" height="36" fill="#0D2C6C" rx="6 6 0 0"/>
     <rect x="0" y="30" width="220" height="6" fill="#0D2C6C"/>
     <text x="14" y="23" fill="#fff" font-size="12" font-weight="700">Accounts</text>
-    <text x="130" y="23" fill="rgba(255,255,255,0.6)" font-size="9">My HE Accounts ▼</text>
+    <text x="110" y="23" fill="rgba(255,255,255,0.7)" font-size="9">My HE Schools ▼</text>
     
     <!-- Table header -->
     <rect x="8" y="44" width="204" height="22" fill="#F7F8FA"/>
     <text x="14" y="59" fill="#5E6062" font-size="9" font-weight="700">Name</text>
-    <text x="130" y="59" fill="#5E6062" font-size="9" font-weight="700">State</text>
-    <text x="175" y="59" fill="#5E6062" font-size="9" font-weight="700">Type</text>
+    <text x="172" y="59" fill="#5E6062" font-size="9" font-weight="700">LMS</text>
     
     <!-- Table rows -->
-    <text x="14" y="82" fill="#0C9372" font-size="9" font-weight="700">Central Arizona College</text>
-    <text x="130" y="82" fill="#5E6062" font-size="9">AZ</text>
-    <text x="175" y="82" fill="#5E6062" font-size="9">HE</text>
+    <text x="14" y="82" fill="#0C9372" font-size="9" font-weight="700">Northgate State University</text>
+    <text x="172" y="82" fill="#5E6062" font-size="9">Canvas</text>
     <line x1="8" y1="88" x2="212" y2="88" stroke="#F0F0F0" stroke-width="1"/>
     
     <!-- Highlight row -->
     <rect x="8" y="92" width="204" height="22" fill="#EDF7E1" rx="2"/>
-    <text x="14" y="107" fill="#0C9372" font-size="9" font-weight="700">Houston Comm College</text>
-    <text x="130" y="107" fill="#5E6062" font-size="9">TX</text>
-    <text x="175" y="107" fill="#5E6062" font-size="9">HE</text>
+    <text x="14" y="107" fill="#0C9372" font-size="9" font-weight="700">Cedar Bluff Community College</text>
+    <text x="172" y="107" fill="#5E6062" font-size="9">Canvas</text>
     
-    <text x="14" y="130" fill="#0C9372" font-size="9">Rice University</text>
-    <text x="130" y="130" fill="#5E6062" font-size="9">TX</text>
-    <text x="175" y="130" fill="#5E6062" font-size="9">HE</text>
+    <text x="14" y="130" fill="#0C9372" font-size="9">Lakeshore Technical College</text>
+    <text x="172" y="130" fill="#5E6062" font-size="9">D2L</text>
     <line x1="8" y1="136" x2="212" y2="136" stroke="#F0F0F0" stroke-width="1"/>
     
-    <text x="14" y="153" fill="#0C9372" font-size="9">Lone Star College</text>
-    <text x="130" y="153" fill="#5E6062" font-size="9">TX</text>
-    <text x="175" y="153" fill="#5E6062" font-size="9">HE</text>
+    <text x="14" y="153" fill="#0C9372" font-size="9">Pine Hollow Community College</text>
+    <text x="172" y="153" fill="#5E6062" font-size="9">Moodle</text>
     <line x1="8" y1="159" x2="212" y2="159" stroke="#F0F0F0" stroke-width="1"/>
     
-    <text x="14" y="176" fill="#0C9372" font-size="9">San Jacinto College</text>
-    <text x="130" y="176" fill="#5E6062" font-size="9">TX</text>
-    <text x="175" y="176" fill="#5E6062" font-size="9">HE</text>
+    <text x="14" y="176" fill="#0C9372" font-size="9">Harbor View College</text>
+    <text x="172" y="176" fill="#5E6062" font-size="9">Canvas</text>
     
     <!-- Step label -->
     <rect x="60" y="198" width="100" height="24" rx="12" fill="#0D2C6C"/>
@@ -68,20 +62,20 @@
     <rect x="0" y="0" width="220" height="50" fill="#0D2C6C" rx="6 6 0 0"/>
     <rect x="0" y="44" width="220" height="6" fill="#0D2C6C"/>
     <text x="14" y="18" fill="rgba(255,255,255,0.6)" font-size="9">ACCOUNT</text>
-    <text x="14" y="38" fill="#fff" font-size="14" font-weight="700">Houston Comm College</text>
+    <text x="14" y="38" fill="#fff" font-size="12" font-weight="700">Cedar Bluff Community College</text>
     
     <!-- Detail fields -->
-    <text x="14" y="70" fill="#9A9A9B" font-size="8" font-weight="700">STATE</text>
-    <text x="14" y="83" fill="#2d2d2d" font-size="10">Texas</text>
+    <text x="14" y="70" fill="#9A9A9B" font-size="8" font-weight="700">RECORD TYPE</text>
+    <text x="14" y="83" fill="#2d2d2d" font-size="10">School</text>
     
     <text x="120" y="70" fill="#9A9A9B" font-size="8" font-weight="700">LMS</text>
     <text x="120" y="83" fill="#2d2d2d" font-size="10">Canvas</text>
     
-    <text x="14" y="102" fill="#9A9A9B" font-size="8" font-weight="700">TYPE</text>
-    <text x="14" y="115" fill="#2d2d2d" font-size="10">Higher Education</text>
+    <text x="14" y="102" fill="#9A9A9B" font-size="8" font-weight="700">MARKET</text>
+    <text x="14" y="115" fill="#2d2d2d" font-size="10">HE</text>
     
-    <text x="120" y="102" fill="#9A9A9B" font-size="8" font-weight="700">ENROLLMENT</text>
-    <text x="120" y="115" fill="#2d2d2d" font-size="10">~58,000</text>
+    <text x="120" y="102" fill="#9A9A9B" font-size="8" font-weight="700">STUDENTS</text>
+    <text x="120" y="115" fill="#2d2d2d" font-size="10">About 8,000</text>
     
     <line x1="8" y1="125" x2="212" y2="125" stroke="#F0F0F0" stroke-width="1"/>
     
@@ -89,10 +83,10 @@
     <text x="14" y="142" fill="#5E6062" font-size="9" font-weight="700">RELATED CONTACTS</text>
     
     <rect x="8" y="148" width="204" height="22" fill="#EDF7E1" rx="2"/>
-    <text x="14" y="163" fill="#0C9372" font-size="9" font-weight="700">Dr. Maria Chen</text>
-    <text x="140" y="163" fill="#9A9A9B" font-size="9">Biology</text>
+    <text x="14" y="163" fill="#0C9372" font-size="9" font-weight="700">Dr. Maya Rivera</text>
+    <text x="140" y="163" fill="#9A9A9B" font-size="9">Anatomy</text>
     
-    <text x="14" y="183" fill="#0C9372" font-size="9">Tom Park</text>
+    <text x="14" y="183" fill="#0C9372" font-size="9">Jordan Lee</text>
     <text x="140" y="183" fill="#9A9A9B" font-size="9">Chemistry</text>
     <line x1="8" y1="189" x2="212" y2="189" stroke="#F0F0F0" stroke-width="1"/>
     
@@ -115,24 +109,22 @@
     <rect x="0" y="0" width="170" height="50" fill="#0D2C6C" rx="6 6 0 0"/>
     <rect x="0" y="44" width="170" height="6" fill="#0D2C6C"/>
     <text x="12" y="18" fill="rgba(255,255,255,0.6)" font-size="9">CONTACT</text>
-    <text x="12" y="38" fill="#fff" font-size="13" font-weight="700">Dr. Maria Chen</text>
+    <text x="12" y="38" fill="#fff" font-size="13" font-weight="700">Dr. Maya Rivera</text>
     
     <!-- Detail fields -->
-    <text x="12" y="70" fill="#9A9A9B" font-size="8" font-weight="700">SUBJECT</text>
-    <text x="12" y="83" fill="#2d2d2d" font-size="10">Biology</text>
+    <text x="12" y="70" fill="#9A9A9B" font-size="8" font-weight="700">ADOPTION STATUS</text>
+    <text x="12" y="83" fill="#77AF42" font-size="10" font-weight="700">Current Adopter</text>
     
-    <text x="100" y="70" fill="#9A9A9B" font-size="8" font-weight="700">STATUS</text>
-    <text x="100" y="83" fill="#77AF42" font-size="10" font-weight="700">Active</text>
     
-    <text x="12" y="102" fill="#9A9A9B" font-size="8" font-weight="700">PARDOT SCORE</text>
-    <text x="12" y="115" fill="#2d2d2d" font-size="10">62</text>
+    <text x="12" y="102" fill="#9A9A9B" font-size="8" font-weight="700">ENGAGEMENT TIER</text>
+    <text x="12" y="115" fill="#2d2d2d" font-size="10">1 Champion</text>
     
     <line x1="8" y1="125" x2="162" y2="125" stroke="#F0F0F0" stroke-width="1"/>
     
     <!-- Related lists -->
-    <text x="12" y="142" fill="#5E6062" font-size="9" font-weight="700">RELATED OPPS</text>
-    <text x="12" y="160" fill="#0C9372" font-size="9">Biology 2e</text>
-    <text x="12" y="175" fill="#9A9A9B" font-size="8">Active · 180 students</text>
+    <text x="12" y="142" fill="#5E6062" font-size="9" font-weight="700">BOOK OPPS</text>
+    <text x="12" y="160" fill="#0C9372" font-size="9">Anatomy and Physiology 2e</text>
+    <text x="12" y="175" fill="#9A9A9B" font-size="8">Active · Book Currently in Use</text>
     
     <!-- Step label -->
     <rect x="15" y="198" width="140" height="24" rx="12" fill="#F47641"/>

@@ -26,28 +26,44 @@ layout: default
 
     <aside class="module-sidebar">
       <div class="sidebar-sticky">
-        <h3 class="sidebar-heading">Modules</h3>
-        <ol class="sidebar-toc">
-          {% for mod in sorted_modules %}
-            <li class="{% if mod.url == page.url %}is-active{% endif %}">
-              <a href="{{ mod.url | relative_url }}">
-                <span class="toc-number">{{ mod.number }}</span>
-                <span class="toc-title">{{ mod.short_title | default: mod.title }}</span>
-              </a>
-            </li>
-          {% endfor %}
-        </ol>
+        {% for part in site.data.parts %}
+          <h3 class="sidebar-heading">Part {{ part.number }} · {{ part.title }}</h3>
+          <ol class="sidebar-toc">
+            {% for mod in sorted_modules %}
+              {% if mod.part == part.number %}
+                <li class="{% if mod.url == page.url %}is-active{% endif %}">
+                  <a href="{{ mod.url | relative_url }}">
+                    <span class="toc-number">{{ mod.number }}</span>
+                    <span class="toc-title">{{ mod.short_title | default: mod.title }}</span>
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+        {% endfor %}
       </div>
     </aside>
 
     <div class="module-content">
       <div class="module-header">
-        <span class="module-number">Module {{ page.number }}</span>
+        {% assign current_part = site.data.parts | where: "number", page.part | first %}
+        <span class="module-number">Module {{ page.number }}{% if current_part %} · Part {{ current_part.number }}: {{ current_part.title }}{% endif %}</span>
         <h1>{{ page.title }}</h1>
         {% if page.description %}
           <p class="module-description">{{ page.description }}</p>
         {% endif %}
       </div>
+
+      {% if page.key_points %}
+        <aside class="key-points" aria-label="In short">
+          <h2 class="key-points-heading">In short</h2>
+          <ul>
+            {% for point in page.key_points %}
+              <li>{{ point | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+            {% endfor %}
+          </ul>
+        </aside>
+      {% endif %}
 
       <div class="module-body prose">
         {{ content }}

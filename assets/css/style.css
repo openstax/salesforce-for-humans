@@ -164,7 +164,32 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* --- Parts (Landing) --- */
+.part-section { margin-bottom: 3rem; }
+.part-header { margin-bottom: 1.25rem; }
+.part-label {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--os-green-dark);
+}
+.part-title {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--os-blue);
+  line-height: 1.25;
+  margin: 0.15rem 0 0.35rem;
+}
+.part-blurb {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.55;
+  max-width: var(--content-width);
 }
 .module-card {
   display: flex;
@@ -191,7 +216,7 @@ body {
   line-height: 1;
   padding-top: 0.2rem;
 }
-.card-body h3 {
+.card-body h4 {
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--os-blue);
@@ -266,6 +291,7 @@ body {
   min-width: 1.2rem;
 }
 .sidebar-toc li.is-active .toc-number { color: var(--os-green-dark); }
+.sidebar-toc + .sidebar-heading { margin-top: 1.25rem; }
 
 /* Module Content Area */
 .module-content {
@@ -300,6 +326,26 @@ body {
   color: var(--text-light);
   line-height: 1.6;
 }
+
+/* --- In Short (Key Points) --- */
+.key-points {
+  margin: 0 0 2.25rem;
+  padding: 1.1rem 1.5rem 1rem;
+  background: #f0f8e8;
+  border-left: 4px solid var(--os-green);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.key-points-heading {
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--os-green-dark);
+  margin-bottom: 0.5rem;
+}
+.key-points ul { padding-left: 1.25rem; }
+.key-points li { margin-bottom: 0.35rem; line-height: 1.55; }
+.key-points li:last-child { margin-bottom: 0; }
 
 /* --- Prose (Module Body Content) --- */
 .prose h2 {
@@ -342,7 +388,10 @@ body {
 .prose blockquote p:last-child { margin-bottom: 0; }
 
 .prose table {
+  display: block;
   width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
   margin: 1.5rem 0;
   border-collapse: collapse;
   font-size: 0.9rem;
@@ -427,6 +476,12 @@ body {
   background: #fff5ee;
   border-left: 4px solid var(--os-orange);
 }
+.prose .callout-blue {
+  background: #eef3fb;
+  border-left: 4px solid var(--os-blue);
+}
+.prose .callout > :last-child { margin-bottom: 0; }
+.prose .callout ul, .prose .callout ol { margin-bottom: 0.5rem; }
 
 /* --- Module Navigation (Prev/Next) --- */
 .module-nav {

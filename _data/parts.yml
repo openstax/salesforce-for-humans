@@ -1,0 +1,15 @@
+- number: 1
+  title: "How It Fits Together"
+  blurb: "What Salesforce is for at OpenStax, how its records connect, and which parts the machines look after."
+- number: 2
+  title: "Everyday Skills"
+  blurb: "Getting around, finding things, logging your work, and keeping records clean."
+- number: 3
+  title: "People, Schools, and Adoptions"
+  blurb: "How an instructor becomes a Contact, how to read one at a glance, and how adoptions and Assignable are tracked."
+- number: 4
+  title: "Marketing and Support"
+  blurb: "Campaigns, Account Engagement (Pardot), and how support requests become Cases."
+- number: 5
+  title: "Numbers, Care, and Help"
+  blurb: "Where the numbers live, how to handle sensitive data, where to get help, and a glossary."

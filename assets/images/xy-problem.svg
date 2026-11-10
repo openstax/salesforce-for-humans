@@ -10,8 +10,8 @@
   <rect x="30" y="90" width="340" height="6" fill="#FFF0F0"/>
   <text x="46" y="88" fill="#C22032" font-size="9" font-weight="700">REQUEST TO ADMIN</text>
 
-  <text x="46" y="114" fill="#2d2d2d" font-size="11">"Can you add a picklist field to Account</text>
-  <text x="46" y="130" fill="#2d2d2d" font-size="11">called 'Priority Level' with values High,</text>
+  <text x="46" y="114" fill="#2d2d2d" font-size="11">"Can you add a field to Account called</text>
+  <text x="46" y="130" fill="#2d2d2d" font-size="11">'Priority Level' with values High,</text>
   <text x="46" y="146" fill="#2d2d2d" font-size="11">Medium, and Low?"</text>
 
   <!-- Problem -->
@@ -33,17 +33,17 @@
   <rect x="430" y="90" width="340" height="6" fill="#EDF7E1"/>
   <text x="446" y="88" fill="#5a8a2f" font-size="9" font-weight="700">REQUEST TO ADMIN</text>
 
-  <text x="446" y="114" fill="#2d2d2d" font-size="11">"I need a way to quickly identify which</text>
-  <text x="446" y="130" fill="#2d2d2d" font-size="11">accounts are most likely to adopt Assignable</text>
-  <text x="446" y="146" fill="#2d2d2d" font-size="11">next semester. I'm currently looking at</text>
-  <text x="446" y="162" fill="#2d2d2d" font-size="11">adoption history, LMS type, and enrollment</text>
-  <text x="446" y="178" fill="#2d2d2d" font-size="11">size. Can you help me build something?"</text>
+  <text x="446" y="114" fill="#2d2d2d" font-size="11">"I need a faster way to pick which</text>
+  <text x="446" y="130" fill="#2d2d2d" font-size="11">schools to call first about Assignable</text>
+  <text x="446" y="146" fill="#2d2d2d" font-size="11">next semester. Today I check adoption</text>
+  <text x="446" y="162" fill="#2d2d2d" font-size="11">history, LMS, and enrollment, one school</text>
+  <text x="446" y="178" fill="#2d2d2d" font-size="11">at a time. Can you help?"</text>
 
   <!-- Possible solutions -->
   <text x="600" y="226" fill="#77AF42" font-size="10" font-weight="900" text-anchor="middle">Now the admin can build the RIGHT thing:</text>
 
   <rect x="436" y="238" width="96" height="22" rx="4" fill="#EDF7E1"/>
-  <text x="484" y="253" fill="#5a8a2f" font-size="8" font-weight="700" text-anchor="middle">Formula field</text>
+  <text x="484" y="253" fill="#5a8a2f" font-size="8" font-weight="700" text-anchor="middle">Existing field</text>
 
   <rect x="540" y="238" width="80" height="22" rx="4" fill="#EDF7E1"/>
   <text x="580" y="253" fill="#5a8a2f" font-size="8" font-weight="700" text-anchor="middle">List view</text>

@@ -8,27 +8,38 @@ title: Home
   <div class="hero">
     <h1>Salesforce for Humans</h1>
     <p class="subtitle">How OpenStax Manages Relationships, Tracks Its Mission, and Turns Data Into Impact</p>
-    <p class="byline">OpenStax · Data Intelligence Team</p>
+    <p class="byline">OpenStax · Data Intelligence Team · Updated November 2026</p>
   </div>
 
   <div class="epigraph">
-    A free, open educational resource company writing a book about how it manages data. Yes, the irony is deliberate. Yes, we love it.<br><br>
-    This book is an exploration of how OpenStax uses Salesforce to track its relationships with educators, students, institutions, and partners — and how every person who touches the system contributes to the mission of making education more accessible. It's written for anyone who's curious about how the pieces fit together, whether you've used Salesforce for years or just got your login yesterday.
+    A free textbook nonprofit wrote a free book about how it manages its data. We know.<br><br>
+    This is a field guide to Salesforce at OpenStax, for anyone who uses it: Customer Experience, Sales, Marketing, Finance, Fundraising, and leadership. It explains how instructors, schools, adoptions, and support requests are tracked, which parts run on their own, and where your knowledge makes the records better. Read it start to finish, or jump to the part you need today.
   </div>
 
   <h2 class="modules-heading" id="modules">Modules</h2>
 
-  <div class="module-grid">
-    {% assign sorted_modules = site.modules | sort: "number" %}
-    {% for mod in sorted_modules %}
-      <a href="{{ mod.url | relative_url }}" class="module-card">
-        <span class="card-number">{{ mod.number }}</span>
-        <div class="card-body">
-          <h3>{{ mod.title }}</h3>
-          <p>{{ mod.description }}</p>
-        </div>
-      </a>
-    {% endfor %}
-  </div>
+  {% assign sorted_modules = site.modules | sort: "number" %}
+  {% for part in site.data.parts %}
+    <section class="part-section" id="part-{{ part.number }}">
+      <div class="part-header">
+        <span class="part-label">Part {{ part.number }}</span>
+        <h3 class="part-title">{{ part.title }}</h3>
+        <p class="part-blurb">{{ part.blurb }}</p>
+      </div>
+      <div class="module-grid">
+        {% for mod in sorted_modules %}
+          {% if mod.part == part.number %}
+            <a href="{{ mod.url | relative_url }}" class="module-card">
+              <span class="card-number">{{ mod.number }}</span>
+              <div class="card-body">
+                <h4>{{ mod.title }}</h4>
+                <p>{{ mod.description }}</p>
+              </div>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
 
 </div>

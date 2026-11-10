@@ -35,10 +35,10 @@
   <line x1="301" y1="170" x2="499" y2="170" stroke="#F0F0F0" stroke-width="1"/>
 
   <text x="305" y="190" fill="#9A9A9B" font-size="9" font-weight="700">CONTEXT LIFESPAN</text>
-  <rect x="305" y="198" width="60" height="16" rx="3" fill="#E8F8FB"/>
-  <text x="335" y="210" fill="#0D2C6C" font-size="9" font-weight="700" text-anchor="middle">Scattered</text>
-  <text x="305" y="232" fill="#5E6062" font-size="9">Exists in individual inboxes.</text>
-  <text x="305" y="244" fill="#5E6062" font-size="9">Others can't see it.</text>
+  <rect x="305" y="198" width="64" height="16" rx="3" fill="#E8F8FB"/>
+  <text x="335" y="210" fill="#0D2C6C" font-size="9" font-weight="700" text-anchor="middle">In inboxes</text>
+  <text x="305" y="232" fill="#5E6062" font-size="9">Lives in individual inboxes.</text>
+  <text x="305" y="244" fill="#5E6062" font-size="9">BCC Salesforce to log it.</text>
 
   <!-- Chatter -->
   <rect x="540" y="50" width="230" height="200" fill="#fff" rx="8" stroke="#77AF42" stroke-width="2"/>
@@ -55,9 +55,9 @@
 
   <text x="560" y="190" fill="#9A9A9B" font-size="9" font-weight="700">CONTEXT LIFESPAN</text>
   <rect x="560" y="198" width="80" height="16" rx="3" fill="#EDF7E1"/>
-  <text x="600" y="210" fill="#5a8a2f" font-size="9" font-weight="700" text-anchor="middle">Permanent</text>
+  <text x="600" y="210" fill="#5a8a2f" font-size="9" font-weight="700" text-anchor="middle">Stays put</text>
   <text x="560" y="232" fill="#5E6062" font-size="9">Attached to the record.</text>
-  <text x="560" y="244" fill="#5E6062" font-size="9">Findable by anyone, forever.</text>
+  <text x="560" y="244" fill="#5E6062" font-size="9">Findable by anyone with access.</text>
 
   <!-- Bottom message -->
   <rect x="100" y="262" width="600" height="2" rx="1" fill="#E5E7EB"/>
