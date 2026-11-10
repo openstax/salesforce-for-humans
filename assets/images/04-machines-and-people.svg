@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="440" fill="#F7F8FA" rx="8"/>
+
+  <text x="400" y="30" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">What Runs Itself and What Needs You</text>
+
+  <text x="140" y="62" fill="#0C9372" font-size="11" font-weight="900" text-anchor="middle">SYSTEMS WRITE IN</text>
+  <text x="660" y="62" fill="#F47641" font-size="11" font-weight="900" text-anchor="middle">PEOPLE ADD CONTEXT</text>
+
+  <rect x="20" y="74" width="240" height="44" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="34" y="92" fill="#0D2C6C" font-size="10" font-weight="700">openstax.org and Accounts</text>
+  <text x="34" y="106" fill="#5E6062" font-size="9">Signups, forms, school changes</text>
+
+  <rect x="20" y="126" width="240" height="44" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="34" y="144" fill="#0D2C6C" font-size="10" font-weight="700">Account Engagement</text>
+  <text x="34" y="158" fill="#5E6062" font-size="9">Scores, grades, email activity</text>
+
+  <rect x="20" y="178" width="240" height="44" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="34" y="196" fill="#0D2C6C" font-size="10" font-weight="700">Assignable nightly loads</text>
+  <text x="34" y="210" fill="#5E6062" font-size="9">Courses, assignments, access</text>
+
+  <rect x="20" y="230" width="240" height="44" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="34" y="248" fill="#0D2C6C" font-size="10" font-weight="700">AI assistants</text>
+  <text x="34" y="262" fill="#5E6062" font-size="9">Case summaries, FV recommendations</text>
+
+  <rect x="20" y="282" width="240" height="44" rx="6" fill="#fff" stroke="#0C9372" stroke-width="1.5"/>
+  <text x="34" y="300" fill="#0D2C6C" font-size="10" font-weight="700">Adoption automation</text>
+  <text x="34" y="314" fill="#5E6062" font-size="9">Adoptions, Book Opp stages, formulas</text>
+
+  <line x1="262" y1="96" x2="318" y2="190" stroke="#0C9372" stroke-width="2" opacity="0.5"/>
+  <line x1="262" y1="148" x2="318" y2="200" stroke="#0C9372" stroke-width="2" opacity="0.5"/>
+  <line x1="262" y1="200" x2="318" y2="205" stroke="#0C9372" stroke-width="2" opacity="0.5"/>
+  <line x1="262" y1="252" x2="318" y2="212" stroke="#0C9372" stroke-width="2" opacity="0.5"/>
+  <line x1="262" y1="304" x2="318" y2="222" stroke="#0C9372" stroke-width="2" opacity="0.5"/>
+
+  <line x1="482" y1="190" x2="538" y2="96" stroke="#F47641" stroke-width="2" opacity="0.5"/>
+  <line x1="482" y1="200" x2="538" y2="148" stroke="#F47641" stroke-width="2" opacity="0.5"/>
+  <line x1="482" y1="205" x2="538" y2="200" stroke="#F47641" stroke-width="2" opacity="0.5"/>
+  <line x1="482" y1="215" x2="538" y2="252" stroke="#F47641" stroke-width="2" opacity="0.5"/>
+
+  <rect x="320" y="150" width="160" height="110" rx="10" fill="#0D2C6C"/>
+  <rect x="324" y="154" width="152" height="102" rx="8" fill="none" stroke="#77AF42" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="400" y="200" fill="#fff" font-size="16" font-weight="900" text-anchor="middle">Salesforce</text>
+  <text x="400" y="220" fill="rgba(255,255,255,0.75)" font-size="10" text-anchor="middle">One shared record</text>
+
+  <rect x="540" y="74" width="240" height="44" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <text x="554" y="92" fill="#0D2C6C" font-size="10" font-weight="700">Cases</text>
+  <text x="554" y="106" fill="#5E6062" font-size="9">CX works them by hand every day</text>
+
+  <rect x="540" y="126" width="240" height="44" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <text x="554" y="144" fill="#0D2C6C" font-size="10" font-weight="700">Activities and notes</text>
+  <text x="554" y="158" fill="#5E6062" font-size="9">Calls, meetings, what was said</text>
+
+  <rect x="540" y="178" width="240" height="44" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <text x="554" y="196" fill="#0D2C6C" font-size="10" font-weight="700">Corrections and details</text>
+  <text x="554" y="210" fill="#5E6062" font-size="9">Role at school, subject interest, LMS</text>
+
+  <rect x="540" y="230" width="240" height="44" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
+  <text x="554" y="248" fill="#0D2C6C" font-size="10" font-weight="700">Judgment calls</text>
+  <text x="554" y="262" fill="#5E6062" font-size="9">Faculty verification, duplicates, opt-outs</text>
+
+  <rect x="320" y="290" width="160" height="36" rx="6" fill="#fff" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="400" y="306" fill="#0D2C6C" font-size="10" font-weight="700" text-anchor="middle">Tableau</text>
+  <text x="400" y="319" fill="#5E6062" font-size="9" text-anchor="middle">reads it back each day</text>
+  <line x1="400" y1="262" x2="400" y2="288" stroke="#E5E7EB" stroke-width="2"/>
+
+  <rect x="20" y="352" width="760" height="64" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="400" y="376" fill="#0D2C6C" font-size="11" font-weight="700" text-anchor="middle">Machines are good at volume and speed. People are good at conversations, context, and judgment.</text>
+  <text x="400" y="396" fill="#5E6062" font-size="10" text-anchor="middle">If a field is filled in by a system, leave it alone. If it needs a person who knows the story, that is you.</text>
+</svg>
