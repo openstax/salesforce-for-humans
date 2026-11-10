@@ -40,9 +40,9 @@ What you change in Salesforce, such as a corrected email address or subject inte
 
 ## Bounces, opt-outs, and who can be emailed
 
-A **hard bounce** means the address is dead. Account Engagement flags it, and **Marketing Engagement Status** then shows Bounced - Unmailable (you may also see "Unable to Email"). A substantial share of the addresses in our system have bounced over the years, so a bounce flag is common.
+A **hard bounce** means the address is dead. Account Engagement flags it, **Marketing Engagement Status** shows Bounced - Unmailable, and the **Unable to Email** checkbox is ticked (it is also ticked for opt-outs and for people who never gave marketing consent). A substantial share of the addresses in our system have bounced over the years, so a bounce flag is common.
 
-Account Engagement will not email anyone with **Email Opt Out** (Do Not Email) set. Record a "please stop emailing me" request on the person's Contact, and on their Lead if one is open. Consent is stored once per person, but the Lead side is older, so check both. Signups who leave the marketing box unticked are treated as not consenting. For the full rules, see [From Signup to Contact]({{ '/modules/10-from-signup-to-contact/' | relative_url }}) and [Handle With Care]({{ '/modules/18-handle-with-care/' | relative_url }}).
+Account Engagement will not email anyone with **Email Opt Out** (Do Not Email) set. Record a "please stop emailing me" request on the person's Contact, and on their Lead if one is open. Consent is stored once per person, but the Lead side is older, so check both. Signups who leave the marketing box unticked are treated as not consenting. For the full rules, see [Reading a Contact]({{ '/modules/11-reading-a-contact/' | relative_url }}).
 
 <div class="callout callout-orange" markdown="1">
 **Hands off:** don't edit `pi__` fields, and don't clear a bounce or opt-out to "give someone another chance." Those flags protect our ability to reach everyone else.
