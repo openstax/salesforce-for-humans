@@ -2,9 +2,11 @@
 
 **How OpenStax Manages Relationships, Tracks Its Mission, and Turns Data Into Impact**
 
-An open, internal field guide to Salesforce at OpenStax — written for anyone who uses the system, is curious about how it works, or just wants to understand how their clicks become someone else's decisions.
+A field guide to Salesforce at OpenStax, for anyone who uses the system or wants to understand how their clicks become someone else's decisions. Read it at https://openstax.github.io/salesforce-for-humans/.
 
-Built by the Data Intelligence team. Hosted on GitHub Pages. Published with the full awareness that a free textbook company writing a free book is exactly the kind of thing we would do.
+Built by the Data Intelligence team and published on GitHub Pages. Yes, a free textbook nonprofit wrote a free book about its own data.
+
+Contributors: read [CLAUDE.md](CLAUDE.md) first. The site is public, and it explains what may and may not go in it.
 
 ## Local Development
 
@@ -18,44 +20,41 @@ bundle exec jekyll serve --livereload
 # Open http://localhost:4000/salesforce-for-humans/
 ```
 
-Requires Ruby 2.7+ and Bundler. If you're on macOS, `brew install ruby` will get you there.
+Requires Ruby 3.x and Bundler (the macOS system Ruby is too old). Run `bundle config set --local path vendor/bundle` once to keep gems inside the repo.
 
 ## Deployment
 
-This site is designed for GitHub Pages:
-
-1. Push to a GitHub repository
-2. Go to **Settings → Pages**
-3. Set source to the branch you want to deploy from (usually `main`)
-4. Update `baseurl` in `_config.yml` to match your repo name
-
-GitHub Pages will build and serve the site automatically on push.
+GitHub Pages builds and publishes `main` automatically. Work on a branch and open a pull request; the public site updates a few minutes after merge.
 
 ## Structure
 
 ```
-├── _config.yml          # Jekyll configuration
+├── _config.yml          # Jekyll configuration (modules collection, redirects plugin)
+├── _data/parts.yml      # The five parts that group the modules
 ├── _layouts/
 │   ├── default.html     # Base layout (header, footer, brand bar)
-│   └── module.html      # Module page layout (sidebar TOC, prev/next nav)
-├── _modules/            # 17 module content files (Markdown + front matter)
+│   └── module.html      # Module page layout (sidebar by part, In short box, prev/next nav)
+├── _modules/            # 21 module files (Markdown + front matter)
 ├── assets/
-│   └── css/style.css    # OpenStax-branded styles
-├── index.html           # Landing page with module grid
+│   ├── css/style.css    # OpenStax-branded styles
+│   └── images/          # SVG illustrations
+├── index.html           # Landing page, modules grouped by part
+├── CLAUDE.md            # Contributor and agent guide (content rules)
 ├── Gemfile              # Ruby dependencies
 └── README.md            # You are here
 ```
 
 ## Content
 
-The `_modules/` directory contains 17 Markdown files, one per module. Each has front matter with:
+The `_modules/` directory contains 21 Markdown files in five parts. Each has front matter with:
 
-- `number` — Sort order (1-17)
-- `title` — Full module title
-- `short_title` — Abbreviated title for sidebar navigation
-- `description` — One-line summary for the landing page cards
+- `number`: sort order (1-21)
+- `part`: which part it belongs to (see `_data/parts.yml`)
+- `title`, `short_title`, `description`: page title, sidebar label, landing-card summary
+- `key_points`: 3-4 bullets shown in the "In short" box
+- `redirect_from`: old URLs that should land on this module (the filename is the URL, so add the old path when you rename a file)
 
-Edit module content directly in the Markdown files. The Jekyll collection handles navigation, ordering, and layout automatically.
+Edit module content directly in the Markdown files. The Jekyll collection handles navigation, ordering, and layout.
 
 ## Brand
 
@@ -63,4 +62,4 @@ Uses the OpenStax visual identity: Lato typography, the green/blue/orange palett
 
 ## License
 
-Internal OpenStax resource. Content is authored by the Data Intelligence team for organizational use.
+OpenStax resource authored by the Data Intelligence team.
