@@ -32,10 +32,10 @@ Every Adoption carries an **Assignable Adoption Status** that climbs a ladder:
 
 | Value | Meaning |
 |---|---|
-| 0 Book Available | The book is available in Assignable |
-| 1 Integrated | The instructor's LMS is connected |
-| 2 Created Assignment | An assignment exists |
-| 3 Students Completed | Students did the work |
+| 0 - Book Available in Assignable | The book is available in Assignable |
+| 1 - Integrated | The instructor's LMS is connected |
+| 2 - Created Assignment | An assignment exists |
+| 3 - Students Completed Assignments | Students did the work |
 
 One student completion confirms the adoption as OpenStax Confirmed and credits the school year in which the students did the work. **Effective Student Count** is the larger of the reported students and Assignable's maximum student completions.
 

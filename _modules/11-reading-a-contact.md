@@ -42,7 +42,7 @@ The Champion tier means an adopter for three or more years who has engaged in th
 Dr. Rivera reads: Current Adopter, tier 1 Champion, engaged recently, faculty confirmed. She is the person you thank, not the person you pitch.
 
 <div class="callout callout-orange" markdown="1">
-**Hands off:** Pardot's "Last Activity" does not move when someone opens an email, only on clicks, form submissions, and visits. Don't read it as "last engaged". Website login, website visit, and resource download date fields aren't filled by anything yet, so don't filter on them. Fields beginning `pi__` come from Account Engagement and get overwritten if you edit them.
+**Careful:** Pardot's "Last Activity" does not move when someone opens an email, only on clicks, form submissions, and visits. Don't read it as "last engaged". Website login, website visit, and resource download date fields aren't filled by anything yet, so don't filter on them. Fields beginning `pi__` come from Account Engagement and get overwritten if you edit them.
 </div>
 
 ## Engagement is not permission

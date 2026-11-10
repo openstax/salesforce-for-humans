@@ -44,15 +44,17 @@ SheerID checks most signups automatically, and most people never reach a human. 
 
 The reviewer opens the Lead and uses the **Verify** action, a guided screen flow. The list views "AI says approve", "AI says reject", "AI asks for documents", "School not matched", and "Verified not converted" sort the work.
 
+The **FV Status** field shows where a person stands. Its values appear exactly like this, which matters when you filter a list view:
+
 | FV Status | Meaning |
 |---|---|
-| Incomplete signup | The person started but didn't finish |
-| Pending SheerID | Waiting on the automatic check |
-| Rejected by SheerID | The automatic check said no |
-| Pending faculty | A person needs to review |
-| Confirmed faculty | Verified. Instructor resources unlock on openstax.org |
-| Rejected faculty | A person reviewed and said no |
-| SheerID expired / SheerID error | The automatic check didn't finish |
+| `incomplete_signup` | The person started but didn't finish |
+| `pending_sheerid` | Waiting on the automatic check |
+| `rejected_by_sheerid` | The automatic check said no |
+| `pending_faculty` | A person needs to review |
+| `confirmed_faculty` | Verified. Instructor resources unlock on openstax.org |
+| `rejected_faculty` | A person reviewed and said no |
+| `sheerid_expired` / `sheerid_error` | The automatic check didn't finish |
 
 If SheerID can't verify Sam, they may email proof (a department page, a syllabus) to support. That email becomes a Case, and Salesforce links it to Sam's open Lead by email address, so the agent can decide from the Case.
 
