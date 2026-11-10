@@ -52,8 +52,8 @@
   <text x="720" y="320" fill="#5E6062" font-size="9" text-anchor="middle">openstax.org</text>
 
   <rect x="525" y="275" width="135" height="36" rx="4" fill="#E8F8FB"/>
-  <text x="592" y="290" fill="#0D2C6C" font-size="9" text-anchor="middle">Personalized experiences</text>
-  <text x="592" y="303" fill="#0D2C6C" font-size="9" text-anchor="middle">from adoption data</text>
+  <text x="592" y="290" fill="#0D2C6C" font-size="9" text-anchor="middle">Signups and forms</text>
+  <text x="592" y="303" fill="#0D2C6C" font-size="9" text-anchor="middle">flow in from the site</text>
 
   <!-- Leadership node (bottom) -->
   <circle cx="400" cy="450" r="44" fill="#fff" stroke="#FDBD3E" stroke-width="2.5"/>

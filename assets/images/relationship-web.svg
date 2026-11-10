@@ -30,8 +30,8 @@
   <rect x="100" y="100" width="200" height="70" rx="8" fill="#0D2C6C"/>
   <rect x="104" y="104" width="192" height="62" rx="6" fill="#0D2C6C" stroke="#77AF42" stroke-width="1.5"/>
   <text x="200" y="125" fill="rgba(255,255,255,0.6)" font-size="9" text-anchor="middle">ACCOUNT</text>
-  <text x="200" y="145" fill="#fff" font-size="13" font-weight="900" text-anchor="middle">Central Arizona College</text>
-  <text x="200" y="160" fill="rgba(255,255,255,0.5)" font-size="9" text-anchor="middle">AZ · HE · Canvas · Rural</text>
+  <text x="200" y="145" fill="#fff" font-size="13" font-weight="900" text-anchor="middle">Cedar Bluff Community College</text>
+  <text x="200" y="160" fill="rgba(255,255,255,0.5)" font-size="9" text-anchor="middle">Higher ed · Canvas · 2-year</text>
 
   <!-- Relationship label: has many -->
   <rect x="158" y="178" width="84" height="16" rx="8" fill="#77AF42"/>
@@ -42,13 +42,13 @@
   <text x="80" y="278" fill="#9A9A9B" font-size="8" font-weight="700">CONTACTS</text>
 
   <circle cx="92" cy="300" r="10" fill="#0D2C6C"/>
-  <text x="88" y="304" fill="#fff" font-size="7" font-weight="700">JR</text>
-  <text x="108" y="302" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Rivera</text>
-  <text x="175" y="302" fill="#9A9A9B" font-size="8">A&amp;P · Score: 45</text>
+  <text x="92" y="303" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">MR</text>
+  <text x="108" y="302" fill="#2d2d2d" font-size="10" font-weight="700">Dr. Maya Rivera</text>
+  <text x="204" y="302" fill="#9A9A9B" font-size="8">1 - Champion</text>
 
   <circle cx="268" cy="300" r="10" fill="#0D2C6C"/>
-  <text x="264" y="304" fill="#fff" font-size="7" font-weight="700">LP</text>
-  <text x="284" y="302" fill="#2d2d2d" font-size="9">+ 3 more</text>
+  <text x="268" y="303" fill="#fff" font-size="7" font-weight="700" text-anchor="middle">+3</text>
+  <text x="284" y="302" fill="#2d2d2d" font-size="9">more</text>
 
   <!-- Relationship label -->
   <rect x="158" y="322" width="84" height="16" rx="8" fill="#F47641"/>
@@ -57,7 +57,7 @@
   <!-- === OPPORTUNITY NODE === -->
   <rect x="60" y="390" width="280" height="52" rx="6" fill="#fff" stroke="#F47641" stroke-width="2"/>
   <text x="80" y="408" fill="#9A9A9B" font-size="8" font-weight="700">OPPORTUNITIES</text>
-  <text x="80" y="426" fill="#2d2d2d" font-size="10" font-weight="700">A&amp;P 2e — Book Opp</text>
+  <text x="80" y="426" fill="#2d2d2d" font-size="10" font-weight="700">A&amp;P 2e · Book Opp</text>
   <text x="240" y="426" fill="#77AF42" font-size="10" font-weight="700">Active</text>
 
   <!-- Relationship label -->
@@ -67,13 +67,15 @@
   <!-- === ADOPTION NODE === -->
   <rect x="60" y="490" width="280" height="52" rx="6" fill="#fff" stroke="#0DC0DC" stroke-width="2"/>
   <text x="80" y="508" fill="#9A9A9B" font-size="8" font-weight="700">ADOPTIONS (per school year)</text>
-  <text x="80" y="526" fill="#2d2d2d" font-size="10">FY26: 180 students ·</text>
-  <text x="225" y="526" fill="#77AF42" font-size="10" font-weight="700">$28,800 saved</text>
+  <text x="80" y="523" fill="#2d2d2d" font-size="9">2024 - 25 · 180 students</text>
+  <text x="80" y="535" fill="#2d2d2d" font-size="9">2025 - 26 · 195 students</text>
+  <text x="230" y="523" fill="#77AF42" font-size="9" font-weight="700">Confirmed</text>
+  <text x="230" y="535" fill="#77AF42" font-size="9" font-weight="700">Confirmed</text>
 
   <!-- === CASE NODE (right side) === -->
   <rect x="440" y="100" width="230" height="56" rx="6" fill="#fff" stroke="#0C9372" stroke-width="2"/>
   <text x="460" y="118" fill="#9A9A9B" font-size="8" font-weight="700">CASES</text>
-  <text x="460" y="136" fill="#2d2d2d" font-size="10" font-weight="700">Instructor Resources Access</text>
+  <text x="460" y="136" fill="#2d2d2d" font-size="10" font-weight="700">Instructor resource access</text>
   <text x="460" y="148" fill="#77AF42" font-size="9">Resolved · Same day</text>
 
   <!-- === CAMPAIGN NODE (right side) === -->
@@ -81,13 +83,12 @@
   <text x="460" y="258" fill="#9A9A9B" font-size="8" font-weight="700">CAMPAIGNS</text>
 
   <rect x="456" y="266" width="270" height="20" rx="3" fill="#FFF9E5"/>
-  <text x="464" y="280" fill="#2d2d2d" font-size="9" font-weight="700">Back to School Spring</text>
-  <text x="630" y="280" fill="#9A9A9B" font-size="8">Parent</text>
+  <text x="464" y="280" fill="#2d2d2d" font-size="9" font-weight="700">Spring 2026 HE Semester Engagement</text>
 
-  <text x="476" y="300" fill="#2d2d2d" font-size="9">HE Adoption Email</text>
+  <text x="476" y="300" fill="#2d2d2d" font-size="9">HE Engagement Email Series</text>
   <text x="630" y="300" fill="#9A9A9B" font-size="8">Sent → Opened</text>
 
-  <text x="476" y="316" fill="#2d2d2d" font-size="9">A&amp;P Webinar Series</text>
+  <text x="476" y="316" fill="#2d2d2d" font-size="9">A&amp;P Webinar</text>
   <text x="630" y="316" fill="#9A9A9B" font-size="8">Registered → Attended</text>
 
   <text x="476" y="332" fill="#9A9A9B" font-size="9" font-style="italic">Campaign Member statuses ↑</text>
@@ -109,7 +110,7 @@
 
   <rect x="590" y="428" width="140" height="30" rx="4" fill="#EBF5FE"/>
   <text x="595" y="442" fill="#0D2C6C" font-size="9" font-weight="700">Web</text>
-  <text x="595" y="454" fill="#5E6062" font-size="8">Personalized experiences</text>
+  <text x="595" y="454" fill="#5E6062" font-size="8">Signups, forms, renewals</text>
 
   <rect x="440" y="464" width="290" height="30" rx="4" fill="#FFF9E5"/>
   <text x="445" y="478" fill="#0D2C6C" font-size="9" font-weight="700">Leadership</text>
@@ -121,4 +122,5 @@
 
   <rect x="355" y="350" width="70" height="18" rx="4" fill="#F7F8FA" stroke="#E5E7EB" stroke-width="1"/>
   <text x="390" y="363" fill="#9A9A9B" font-size="8" text-anchor="middle">connected</text>
+  <text x="780" y="550" fill="#9A9A9B" font-size="8" text-anchor="end">Example data</text>
 </svg>
