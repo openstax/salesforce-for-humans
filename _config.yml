@@ -1,9 +1,12 @@
 title: "Salesforce for Humans"
 description: "How OpenStax Manages Relationships, Tracks Its Mission, and Turns Data Into Impact"
-url: "" # Update with your GitHub Pages URL
-baseurl: "/salesforce-for-humans" # Update with your repo name
+url: "https://openstax.github.io"
+baseurl: "/salesforce-for-humans"
 
 markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
 highlighter: rouge
 
 collections:
@@ -21,6 +24,7 @@ defaults:
 
 exclude:
   - README.md
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - node_modules
