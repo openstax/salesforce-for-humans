@@ -1,84 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Lato, -apple-system, sans-serif">
-  <rect width="800" height="420" fill="#F7F8FA" rx="8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="480" fill="#F7F8FA" rx="8"/>
   <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">How Support Requests Become Cases</text>
+  <rect x="30" y="48" width="170" height="46" rx="6" fill="#fff" stroke="#77AF42" stroke-width="2"/>
+  <text x="115" y="68" fill="#0D2C6C" font-size="12" font-weight="700" text-anchor="middle">Email</text>
+  <text x="115" y="84" fill="#5E6062" font-size="8" text-anchor="middle">help inboxes, thread stays on Case</text>
+  <line x1="115" y1="94" x2="340.0" y2="124" stroke="#77AF42" stroke-width="1.5" opacity="0.6"/>
+  <rect x="225" y="48" width="170" height="46" rx="6" fill="#fff" stroke="#F47641" stroke-width="2"/>
+  <text x="310" y="68" fill="#0D2C6C" font-size="12" font-weight="700" text-anchor="middle">Web form</text>
+  <text x="310" y="84" fill="#5E6062" font-size="8" text-anchor="middle">forms on openstax.org</text>
+  <line x1="310" y1="94" x2="380.0" y2="124" stroke="#F47641" stroke-width="1.5" opacity="0.6"/>
+  <rect x="420" y="48" width="170" height="46" rx="6" fill="#fff" stroke="#0DC0DC" stroke-width="2"/>
+  <text x="505" y="68" fill="#0D2C6C" font-size="12" font-weight="700" text-anchor="middle">Chat</text>
+  <text x="505" y="84" fill="#5E6062" font-size="8" text-anchor="middle">AI assistant, then an agent</text>
+  <line x1="505" y1="94" x2="420.0" y2="124" stroke="#0DC0DC" stroke-width="1.5" opacity="0.6"/>
+  <rect x="615" y="48" width="170" height="46" rx="6" fill="#fff" stroke="#FDBD3E" stroke-width="2"/>
+  <text x="700" y="68" fill="#0D2C6C" font-size="12" font-weight="700" text-anchor="middle">Phone</text>
+  <text x="700" y="84" fill="#5E6062" font-size="8" text-anchor="middle">recording + AI call summary</text>
+  <line x1="700" y1="94" x2="460.0" y2="124" stroke="#FDBD3E" stroke-width="1.5" opacity="0.6"/>
+  <rect x="230" y="124" width="340" height="46" rx="8" fill="#0D2C6C"/>
+  <text x="400" y="144" fill="#fff" font-size="14" font-weight="900" text-anchor="middle">One Case record</text>
+  <text x="400" y="160" fill="rgba(255,255,255,0.75)" font-size="9" text-anchor="middle">matched to a person by email (including alternates) or phone</text>
+  <line x1="400" y1="170" x2="400" y2="188" stroke="#5E6062" stroke-width="2" marker-end="url(#arr)"/>
 
-  <!-- Channel icons flowing into funnel -->
-  <rect x="40" y="50" width="120" height="40" rx="6" fill="#fff" stroke="#77AF42" stroke-width="1.5"/>
-  <text x="100" y="74" fill="#77AF42" font-size="11" font-weight="700" text-anchor="middle">Email</text>
+  <rect x="40" y="188" width="720" height="52" rx="8" fill="#fff" stroke="#0C9372" stroke-width="2"/>
+  <text x="400" y="208" fill="#0C9372" font-size="11" font-weight="900" text-anchor="middle">AI step: fills Summary, Type, Reason, Sentiment, Product, Feature, Issue, and flags spam</text>
+  <text x="400" y="226" fill="#5E6062" font-size="10" text-anchor="middle">Agents can change Product, Feature, and Issue. Phone Cases use a separate flow, so tags can differ a little.</text>
+  <line x1="400" y1="240" x2="400" y2="258" stroke="#5E6062" stroke-width="2" marker-end="url(#arr)"/>
 
-  <rect x="180" y="50" width="120" height="40" rx="6" fill="#fff" stroke="#F47641" stroke-width="1.5"/>
-  <text x="240" y="74" fill="#F47641" font-size="11" font-weight="700" text-anchor="middle">Web Form</text>
-
-  <rect x="320" y="50" width="120" height="40" rx="6" fill="#fff" stroke="#0DC0DC" stroke-width="1.5"/>
-  <text x="380" y="74" fill="#0DC0DC" font-size="11" font-weight="700" text-anchor="middle">Live Chat</text>
-
-  <rect x="460" y="50" width="120" height="40" rx="6" fill="#fff" stroke="#FDBD3E" stroke-width="1.5"/>
-  <text x="520" y="74" fill="#0D2C6C" font-size="11" font-weight="700" text-anchor="middle">Phone</text>
-
-  <!-- Arrows down -->
-  <line x1="100" y1="90" x2="340" y2="120" stroke="#77AF42" stroke-width="1.5" opacity="0.5"/>
-  <line x1="240" y1="90" x2="340" y2="120" stroke="#F47641" stroke-width="1.5" opacity="0.5"/>
-  <line x1="380" y1="90" x2="380" y2="120" stroke="#0DC0DC" stroke-width="1.5" opacity="0.5"/>
-  <line x1="520" y1="90" x2="420" y2="120" stroke="#FDBD3E" stroke-width="1.5" opacity="0.5"/>
-
-  <!-- Unified Case -->
-  <rect x="260" y="120" width="240" height="56" rx="8" fill="#0D2C6C"/>
-  <text x="380" y="142" fill="rgba(255,255,255,0.6)" font-size="9" text-anchor="middle">EVERY CHANNEL → SAME PLACE</text>
-  <text x="380" y="162" fill="#fff" font-size="14" font-weight="900" text-anchor="middle">Unified Case Record</text>
-
-  <!-- What the case shows -->
-  <rect x="600" y="50" width="180" height="126" rx="6" fill="#fff" stroke="#E5E7EB" stroke-width="1"/>
-  <text x="616" y="70" fill="#0D2C6C" font-size="9" font-weight="700">EVERY CASE INCLUDES:</text>
-  <text x="616" y="90" fill="#5E6062" font-size="9">Person's identity</text>
-  <text x="616" y="106" fill="#5E6062" font-size="9">Institution context</text>
-  <text x="616" y="122" fill="#5E6062" font-size="9">Full interaction history</text>
-  <text x="616" y="138" fill="#5E6062" font-size="9">Adoption &amp; engagement profile</text>
-  <text x="616" y="154" fill="#5E6062" font-size="9">Prior support cases</text>
-  <line x1="500" y1="148" x2="600" y2="110" stroke="#E5E7EB" stroke-width="1.5"/>
-
-  <!-- TAXONOMY SECTION -->
-  <text x="400" y="210" fill="#0D2C6C" font-size="14" font-weight="900" text-anchor="middle">The Three-Level Classification</text>
-  <text x="400" y="226" fill="#9A9A9B" font-size="10" text-anchor="middle">Accurate tagging transforms support conversations into organizational intelligence</text>
-
-  <!-- Level 1: Product -->
-  <rect x="40" y="244" width="720" height="44" rx="6" fill="#0D2C6C"/>
-  <text x="60" y="262" fill="rgba(255,255,255,0.5)" font-size="9" font-weight="700">LEVEL 1</text>
-  <text x="60" y="280" fill="#fff" font-size="12" font-weight="900">Product</text>
-  <text x="200" y="272" fill="rgba(255,255,255,0.7)" font-size="10">What product is this about?</text>
-
-  <rect x="440" y="254" width="80" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
-  <text x="480" y="270" fill="#fff" font-size="9" text-anchor="middle">Textbook</text>
-  <rect x="530" y="254" width="80" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
-  <text x="570" y="270" fill="#fff" font-size="9" text-anchor="middle">Assignable</text>
-  <rect x="620" y="254" width="80" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
-  <text x="660" y="270" fill="#fff" font-size="9" text-anchor="middle">Website</text>
-  <rect x="710" y="254" width="40" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
-  <text x="730" y="270" fill="rgba(255,255,255,0.5)" font-size="9" text-anchor="middle">...</text>
-
-  <!-- Level 2: Feature -->
-  <rect x="80" y="296" width="640" height="44" rx="6" fill="#77AF42"/>
-  <text x="100" y="314" fill="rgba(255,255,255,0.6)" font-size="9" font-weight="700">LEVEL 2</text>
-  <text x="100" y="332" fill="#fff" font-size="12" font-weight="900">Feature</text>
-  <text x="220" y="322" fill="rgba(255,255,255,0.8)" font-size="10">What feature area?</text>
-
-  <rect x="430" y="306" width="100" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
-  <text x="480" y="322" fill="#fff" font-size="9" text-anchor="middle">Payment</text>
-  <rect x="540" y="306" width="100" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
-  <text x="590" y="322" fill="#fff" font-size="9" text-anchor="middle">Log In</text>
-  <rect x="650" y="306" width="60" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
-  <text x="680" y="322" fill="rgba(255,255,255,0.6)" font-size="9" text-anchor="middle">...</text>
-
-  <!-- Level 3: Issue -->
-  <rect x="120" y="348" width="560" height="44" rx="6" fill="#F47641"/>
-  <text x="140" y="366" fill="rgba(255,255,255,0.6)" font-size="9" font-weight="700">LEVEL 3</text>
-  <text x="140" y="384" fill="#fff" font-size="12" font-weight="900">Issue</text>
-  <text x="230" y="374" fill="rgba(255,255,255,0.8)" font-size="10">What does the person need?</text>
-
-  <rect x="440" y="358" width="100" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
-  <text x="490" y="374" fill="#fff" font-size="9" text-anchor="middle">Refund</text>
-  <rect x="550" y="358" width="120" height="24" rx="4" fill="rgba(255,255,255,0.2)"/>
-  <text x="610" y="374" fill="#fff" font-size="9" text-anchor="middle">Password Reset</text>
-
-  <!-- Bottom -->
-  <text x="400" y="412" fill="#9A9A9B" font-size="10" font-style="italic" text-anchor="middle">A well-tagged Case contributes to a clear picture. A vaguely tagged Case is noise.</text>
+  <text x="400" y="274" fill="#0D2C6C" font-size="13" font-weight="900" text-anchor="middle">Product → Feature → Issue</text>
+  <rect x="40" y="288" width="230" height="170" rx="6" fill="#fff" stroke="#0D2C6C" stroke-width="2"/>
+  <rect x="40" y="288" width="230" height="40" rx="6" fill="#0D2C6C"/>
+  <rect x="40" y="310" width="230" height="18" fill="#0D2C6C"/>
+  <text x="54" y="305" fill="#fff" font-size="11" font-weight="900">PRODUCT</text>
+  <text x="54" y="321" fill="rgba(255,255,255,0.85)" font-size="9">What is it about?</text>
+  <rect x="54" y="340" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="155" y="355" fill="#2d2d2d" font-size="10" text-anchor="middle">Accounts</text>
+  <rect x="54" y="368" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="155" y="383" fill="#2d2d2d" font-size="10" text-anchor="middle">Textbook</text>
+  <rect x="54" y="396" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="155" y="411" fill="#2d2d2d" font-size="10" text-anchor="middle">Assignable</text>
+  <rect x="54" y="424" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="155" y="439" fill="#2d2d2d" font-size="10" text-anchor="middle">REX</text>
+  <rect x="285" y="288" width="230" height="170" rx="6" fill="#fff" stroke="#77AF42" stroke-width="2"/>
+  <rect x="285" y="288" width="230" height="40" rx="6" fill="#77AF42"/>
+  <rect x="285" y="310" width="230" height="18" fill="#77AF42"/>
+  <text x="299" y="305" fill="#fff" font-size="11" font-weight="900">FEATURE</text>
+  <text x="299" y="321" fill="rgba(255,255,255,0.85)" font-size="9">Which part of it?</text>
+  <rect x="299" y="340" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="400" y="355" fill="#2d2d2d" font-size="10" text-anchor="middle">Faculty Verification</text>
+  <rect x="299" y="368" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="400" y="383" fill="#2d2d2d" font-size="10" text-anchor="middle">Sign Up</text>
+  <rect x="299" y="396" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="400" y="411" fill="#2d2d2d" font-size="10" text-anchor="middle">Payment</text>
+  <rect x="299" y="424" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="400" y="439" fill="#2d2d2d" font-size="10" text-anchor="middle">Instructor Resources</text>
+  <rect x="530" y="288" width="230" height="170" rx="6" fill="#fff" stroke="#F47641" stroke-width="2"/>
+  <rect x="530" y="288" width="230" height="40" rx="6" fill="#F47641"/>
+  <rect x="530" y="310" width="230" height="18" fill="#F47641"/>
+  <text x="544" y="305" fill="#fff" font-size="11" font-weight="900">ISSUE</text>
+  <text x="544" y="321" fill="rgba(255,255,255,0.85)" font-size="9">What does the person need?</text>
+  <rect x="544" y="340" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="645" y="355" fill="#2d2d2d" font-size="10" text-anchor="middle">Credentials</text>
+  <rect x="544" y="368" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="645" y="383" fill="#2d2d2d" font-size="10" text-anchor="middle">How To</text>
+  <rect x="544" y="396" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="645" y="411" fill="#2d2d2d" font-size="10" text-anchor="middle">Access Pending</text>
+  <rect x="544" y="424" width="202" height="22" rx="4" fill="#F7F8FA"/>
+  <text x="645" y="439" fill="#2d2d2d" font-size="10" text-anchor="middle">Error</text>
+  <text x="400" y="474" fill="#9A9A9B" font-size="9" font-style="italic" text-anchor="middle">Examples only. Each level has more values than shown.</text>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#5E6062"/></marker>
+  </defs>
 </svg>
