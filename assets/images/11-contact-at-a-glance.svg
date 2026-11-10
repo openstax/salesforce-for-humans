@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Lato, -apple-system, sans-serif">
+  <rect width="800" height="380" fill="#F7F8FA" rx="8"/>
+  <text x="400" y="28" fill="#0D2C6C" font-size="15" font-weight="900" text-anchor="middle">A Contact at a Glance</text>
+
+  <rect x="30" y="46" width="440" height="304" rx="8" fill="#fff" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="48" y="72" fill="#0D2C6C" font-size="14" font-weight="900">Dr. Maya Rivera</text>
+  <text x="48" y="88" fill="#5E6062" font-size="10">Anatomy &amp; Physiology, Cedar Bluff Community College</text>
+  <line x1="48" y1="100" x2="452" y2="100" stroke="#E5E7EB"/>
+
+  <text x="48" y="124" fill="#9A9A9B" font-size="8" font-weight="700">ADOPTION STATUS</text>
+  <text x="48" y="142" fill="#0C9372" font-size="12" font-weight="900">Current Adopter</text>
+
+  <text x="48" y="178" fill="#9A9A9B" font-size="8" font-weight="700">INSTRUCTOR ENGAGEMENT TIER</text>
+  <text x="48" y="196" fill="#0C9372" font-size="12" font-weight="900">1 Champion</text>
+
+  <text x="48" y="232" fill="#9A9A9B" font-size="8" font-weight="700">LAST ENGAGEMENT DATE</text>
+  <text x="48" y="250" fill="#2d2d2d" font-size="12" font-weight="700">12 days ago</text>
+
+  <text x="48" y="286" fill="#9A9A9B" font-size="8" font-weight="700">MARKETING ENGAGEMENT STATUS</text>
+  <text x="48" y="304" fill="#2d2d2d" font-size="12" font-weight="700">Engaged - Recent Response (90d)</text>
+
+  <text x="270" y="124" fill="#9A9A9B" font-size="8" font-weight="700">FV STATUS</text>
+  <text x="270" y="142" fill="#2d2d2d" font-size="12" font-weight="700">Confirmed faculty</text>
+
+  <text x="270" y="178" fill="#9A9A9B" font-size="8" font-weight="700">LIFECYCLE STAGE</text>
+  <text x="270" y="196" fill="#2d2d2d" font-size="12" font-weight="700">Nurturing</text>
+
+  <text x="270" y="232" fill="#9A9A9B" font-size="8" font-weight="700">SUBJECT INTEREST</text>
+  <text x="270" y="250" fill="#2d2d2d" font-size="12" font-weight="700">Anatomy and Physiology</text>
+
+  <text x="48" y="336" fill="#9A9A9B" font-size="9" font-style="italic">Example data</text>
+
+
+  <text x="505" y="118" fill="#0D2C6C" font-size="10" font-weight="900">Using a book now?</text>
+  <text x="505" y="132" fill="#5E6062" font-size="9">Flips to Past each July</text>
+  <text x="505" y="146" fill="#5E6062" font-size="9">until they re-confirm</text>
+
+  <text x="505" y="172" fill="#0D2C6C" font-size="10" font-weight="900">How engaged overall?</text>
+  <text x="505" y="186" fill="#5E6062" font-size="9">Adopter 3+ years, active</text>
+  <text x="505" y="200" fill="#5E6062" font-size="9">in the last 180 days</text>
+
+  <text x="505" y="222" fill="#0D2C6C" font-size="10" font-weight="900">Last sign of life?</text>
+  <text x="505" y="236" fill="#5E6062" font-size="9">Use this, not Pardot</text>
+  <text x="505" y="250" fill="#5E6062" font-size="9">Last Activity</text>
+
+  <text x="505" y="280" fill="#F47641" font-size="10" font-weight="900">May we email them?</text>
+  <text x="505" y="294" fill="#5E6062" font-size="9">Engagement is not</text>
+  <text x="505" y="308" fill="#5E6062" font-size="9">permission</text>
+</svg>
