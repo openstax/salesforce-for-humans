@@ -56,13 +56,13 @@ The **FV Status** field shows where a person stands. Its values appear exactly l
 | `rejected_faculty` | A person reviewed and said no |
 | `sheerid_expired` / `sheerid_error` | The automatic check didn't finish |
 
-If SheerID can't verify Sam, they may email proof (a department page, a syllabus) to support. That email becomes a Case, and Salesforce links it to Sam's open Lead by email address, so the agent can decide from the Case.
+If SheerID can't verify Sam, they can send documentation to support. That email becomes a Case, and Salesforce links it to Sam's open Lead by email address, so the agent can decide from the Case.
 
 ## What happens when you confirm or reject
 
 **Confirm.** The Lead converts into a Contact on the school's Account (Northgate State). If Sam already existed as a Contact, the new information merges into that Contact and the Lead is marked **Merged**. No duplicate appears. A repeat signup never downgrades someone who is already verified.
 
-**Reject.** The Lead is closed as Unqualified, a rejection email goes out, and the person is opted out of marketing email. A Lead or account whose role is **Student** is rejected automatically.
+**Reject.** The Lead is closed as Unqualified, a rejection email goes out, and the person is opted out of marketing email.
 
 A change to a person's school or Contact in Salesforce reaches their OpenStax account within about an hour.
 

@@ -17,6 +17,9 @@ https://openstax.github.io/salesforce-for-humans/
 - Staff names. Use roles and teams ("the Data Intelligence team", "CX", "the SDR").
 - Bugs, outages, incidents, error rates, backlog sizes, or anything that reads as an internal post-mortem.
 - Security and permission details (permission set names, integration users, API specifics), record IDs.
+- How faculty verification decides: automatic rejection rules, what proof support accepts, or anything
+  else that would help someone pass as an instructor. Verification unlocks instructor resources such as
+  test banks. Say only what the public help center already says.
 - Any personal data. Student data is FERPA-protected; donor data is restricted.
 - Real institutions or real people as examples. Use the fictional cast below.
 
